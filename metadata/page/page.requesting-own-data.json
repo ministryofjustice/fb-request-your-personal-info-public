@@ -1,0 +1,27 @@
+{
+  "_id": "page.requesting-own-data",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.requesting-own-data--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.requesting-own-data--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "My own data",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.requesting-own-data--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Data on behalf of someone else",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Are you requesting your own data or data on behalf  of someone else?",
+      "name": "auto_name__1"
+    }
+  ],
+  "url": "requesting-own-data"
+}

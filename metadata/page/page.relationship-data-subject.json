@@ -1,0 +1,75 @@
+{
+  "_id": "page.relationship-data-subject",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.relationship-data-subject--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__5--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__5--group--text.auto_name__5",
+                "_type": "text",
+                "label": "Name of firm",
+                "name": "auto_name__5"
+              },
+              {
+                "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__5--group--text.auto_name__9",
+                "_type": "text",
+                "label": "First name of requester (optional)",
+                "name": "auto_name__9",
+                "validation": {
+                  "required": false
+                }
+              },
+              {
+                "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__5--group--text.auto_name__10",
+                "_type": "text",
+                "label": "Last name of requester (optional)",
+                "name": "auto_name__10",
+                "validation": {
+                  "required": false
+                }
+              }
+            ]
+          },
+          "label": "Solicitor",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6--group--text.auto_name__7",
+                "_type": "text",
+                "label": "First name of requester",
+                "name": "auto_name__7"
+              },
+              {
+                "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6--group--text.auto_name__8",
+                "_type": "text",
+                "label": "Last name of requester",
+                "name": "auto_name__8"
+              }
+            ]
+          },
+          "label": "Other",
+          "value": "auto_value__6"
+        }
+      ],
+      "legend": "What is your relationship to the data subject?",
+      "name": "auto_name__3"
+    }
+  ],
+  "url": "relationship-data-subject"
+}

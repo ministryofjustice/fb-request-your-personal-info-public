@@ -1,9 +1,38 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "**This is the main content section of your start page**\r\n\r\n[Edit this page](/edit) with content for your own service.\r\n\r\n## Adding more content\r\n\r\nYou can add multiple headings, links and paragraphs - all in this one content section.\r\n\r\nUse [markdown](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown) to format headings, bullet lists and links.",
-  "heading": "This is your start page heading",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "body": "Use this form to request personal information about you held by Her Majesty's Prison and Probation Service.\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.\r\n",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "We aim to respond to all requests within a month."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us find your information in our systems including your name, prison number and date of birth.\r\n\r\nYou may also be asked for details relating to your request, such as the location of your probation office or the date of your court case. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nIf you are applying for probation data, it would be useful if you could provide your probation supervising office.\r\n\r\nWe may charge you a fee to process your request if it is excessive. We will contact you to discuss before proceeding with the request.\r\n\r\n**We can only send your information to you. If you want your information to be sent to someone else, such as your solicitor or a relative, they will need to submit a request on your behalf.**"
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "You can also request via letter.\r\n\r\nThe online service is also available in Welsh (Cymraeg)."
+    }
+  ],
+  "heading": "Request your personal information",
+  "steps": [
+    "page.requesting-own-data",
+    "page.subject-offender-ex-offender",
+    "page.requester-name",
+    "page.relationship-data-subject"
+  ],
   "url": "/"
 }

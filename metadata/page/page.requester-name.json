@@ -1,0 +1,20 @@
+{
+  "_id": "page.requester-name",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.requester-name--text.auto_name__4",
+      "_type": "text",
+      "label": "Requester first name",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.requester-name--text.auto_name__6",
+      "_type": "text",
+      "label": "Requester last name",
+      "name": "auto_name__6"
+    }
+  ],
+  "heading": "Your name",
+  "url": "requester-name"
+}
