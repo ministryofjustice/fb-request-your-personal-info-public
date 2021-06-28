@@ -31,8 +31,10 @@
   "steps": [
     "page.requesting-own-data",
     "page.subject-offender-ex-offender",
-    "page.requester-name",
-    "page.relationship-data-subject"
+    "page.relationship-data-subject",
+    "page._letter-of-consent",
+    "page.data-subject-name",
+    "page.date-of-birth"
   ],
   "url": "/"
 }

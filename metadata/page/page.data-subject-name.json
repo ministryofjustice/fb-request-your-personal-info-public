@@ -1,0 +1,54 @@
+{
+  "_id": "page.data-subject-name",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.data-subject-name--text.auto_name__6",
+      "_type": "text",
+      "label": "First name of data subject",
+      "name": "auto_name__6"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.data-subject-name--text.auto_name__11",
+      "_type": "text",
+      "label": "Middle name of data subject: (optional)",
+      "name": "auto_name__11",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.data-subject-name--text.auto_name__12",
+      "_type": "text",
+      "label": "Last name of data subject:",
+      "name": "auto_name__12"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.data-subject-name--text.auto_name__14",
+      "_type": "text",
+      "label": "Previous name of data subject (or any other name that subject is known by):",
+      "name": "auto_name__14",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "What is the data subject's name?",
+  "url": "data-subject-name"
+}

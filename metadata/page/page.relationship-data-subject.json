@@ -53,7 +53,14 @@
                 "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6--group--text.auto_name__7",
                 "_type": "text",
                 "label": "First name of requester",
-                "name": "auto_name__7"
+                "name": "auto_name__7",
+                "validation": {
+                  "required": {
+                    "identifier": "auto_name__3--radio",
+                    "operator": "is",
+                    "value": "auto_value__5"
+                  }
+                }
               },
               {
                 "_id": "page.relationship-data-subject--radios.auto_name__3--radio.auto_value__6--group--text.auto_name__8",
@@ -71,5 +78,10 @@
       "name": "auto_name__3"
     }
   ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
   "url": "relationship-data-subject"
 }
