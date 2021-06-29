@@ -30,6 +30,7 @@
   "heading": "Request your personal information",
   "steps": [
     "page.requesting-own-data",
+    "page.identity-documents-self-requester",
     "page.subject-offender-ex-offender",
     "page.relationship-data-subject",
     "page.person-in-custody",
