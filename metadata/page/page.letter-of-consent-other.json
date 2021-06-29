@@ -1,0 +1,17 @@
+{
+  "_id": "page.letter-of-consent-other",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.letter-of-consent-other--upload.auto_name__20",
+      "_type": "upload",
+      "hint": "This must be signed by the person you are requesting information about and be dated within the last 6 months. Maximum size: 7MB",
+      "label": "Upload a letter of consent",
+      "name": "auto_name__20"
+    }
+  ],
+  "steps": [
+    "page.person-in-custody_letter-of-consent-other-check"
+  ],
+  "url": "letter-of-consent-other"
+}

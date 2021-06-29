@@ -1,0 +1,47 @@
+{
+  "_id": "page.person-in-custody",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.person-in-custody--radios.auto_name__15",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.person-in-custody--radios.auto_name__15--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Yes, the person is currently in prison or in custody",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.person-in-custody--radios.auto_name__15--radio.auto_value__2--2",
+          "_type": "radio",
+          "label": "No, the person is not currently in prison or in custody",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Is the the person you are requesting information about currently in prison or custody?",
+      "name": "auto_name__15"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "auto_value__2"
+      },
+      {
+        "identifier": "auto_name__3",
+        "operator": "is",
+        "value": "auto_value__6"
+      }
+    ]
+  },
+  "steps": [
+    "page.identity-documents-data-subject",
+    "page.identity-documents-requester",
+    "page.letter-of-consent-other"
+  ],
+  "url": "person-in-custody"
+}

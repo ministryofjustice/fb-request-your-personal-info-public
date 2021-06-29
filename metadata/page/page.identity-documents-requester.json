@@ -1,0 +1,26 @@
+{
+  "_id": "page.identity-documents-requester",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.identity-documents-requester--upload.auto_name__18",
+      "_type": "upload",
+      "hint": "This can be a copy of the photograph page of your passport or driving licence. Maximum size: 7MB per file",
+      "label": "✎ Proof of identity - yours",
+      "name": "auto_name__18"
+    },
+    {
+      "_id": "page.identity-documents-requester--upload.auto_name__19",
+      "_type": "upload",
+      "hint": "This can be a copy of a recent utility bill in the your name (dated within the last three months) . Maximum size: 7MB per file",
+      "label": "✎ Proof of address - yours",
+      "name": "auto_name__19"
+    }
+  ],
+  "heading": "Identifying details - yours",
+  "lede": "Please upload two copies of proof of identity for you",
+  "steps": [
+    "page.person-in-custody_identity-documents-requester-check"
+  ],
+  "url": "identity-documents-requester"
+}
