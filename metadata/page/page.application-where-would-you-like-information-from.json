@@ -1,0 +1,32 @@
+{
+  "_id": "page.application-where-would-you-like-information-from",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.application-where-would-you-like-information-from--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__23",
+          "_type": "checkbox",
+          "label": "HM Prison Service",
+          "name": "auto_name__23"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__24",
+          "_type": "checkbox",
+          "label": "Probation Service",
+          "name": "auto_name__24"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__25",
+          "_type": "checkbox",
+          "label": "Elsewhere within the Ministry of Justice",
+          "name": "auto_name__25"
+        }
+      ],
+      "legend": "Where would you like to get information from? "
+    }
+  ],
+  "url": "application-where-would-you-like-information-from"
+}

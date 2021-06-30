@@ -1,0 +1,21 @@
+{
+  "_id": "page.exit",
+  "_type": "page.exit",
+  "heading": "Sorry, we cannot process your request using this form",
+  "lede": "You need to select at least one of HM Prison Service or National Probation Service. ",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__24",
+        "negated": true,
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__23",
+        "negated": true,
+        "operator": "defined"
+      }
+    ]
+  },
+  "url": "exit"
+}

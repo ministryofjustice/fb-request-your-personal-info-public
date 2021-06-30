@@ -1,0 +1,33 @@
+{
+  "_id": "page.own-data-for-court-case",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.own-data-for-court-case--radios.auto_name__27",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--textarea.auto_name__28",
+            "_type": "textarea",
+            "label": "Give a short explanation",
+            "name": "auto_name__28"
+          },
+          "label": "Yes, this data is for an upcoming court case or hearing",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "No, this data is not for an upcoming court case or hearing",
+          "value": "auto_value__1"
+        }
+      ],
+      "legend": "Is this data for a court case or hearing?",
+      "name": "auto_name__27"
+    }
+  ],
+  "url": "own-data-for-court-case"
+}
