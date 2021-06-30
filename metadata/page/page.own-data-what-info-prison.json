@@ -89,6 +89,18 @@
                   {
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__38",
                     "_type": "checkbox",
+                    "conditionalComponent": {
+                      "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__38--textarea.auto_name__39",
+                      "_type": "textarea",
+                      "name": "auto_name__39",
+                      "label": "Please specify what other information you would like",
+                      "validation": {
+                        "required": {
+                          "identifier": "auto_name__38",
+                          "operator": "defined"
+                        }
+                      }
+                    },
                     "label": "Something else",
                     "name": "auto_name__38"
                   }
