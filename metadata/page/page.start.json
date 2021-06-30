@@ -40,7 +40,8 @@
     "page.date-of-birth",
     "page.application-where-would-you-like-information-from",
     "page.exit",
-    "page.own-data-for-court-case"
+    "page.own-data-for-court-case",
+    "page.own-data-what-is-nomis-number"
   ],
   "url": "/"
 }

@@ -1,0 +1,19 @@
+{
+  "_id": "page.own-data-what-is-nomis-number",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.own-data-what-is-nomis-number--text.auto_name__29",
+      "_type": "text",
+      "hint": "For example, A1234AA",
+      "label": "What is your NOMIS number?",
+      "name": "auto_name__29"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.own-data-which-prison",
+    "page.own-data-what-info-prison"
+  ],
+  "url": "own-data-what-is-nomis-number"
+}
