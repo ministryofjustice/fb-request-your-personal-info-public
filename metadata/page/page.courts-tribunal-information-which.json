@@ -17,5 +17,9 @@
     }
   ],
   "heading": "Which court or tribunal do you want information from?  (optional)",
+  "show": {
+    "identifier": "auto_name__42",
+    "operator": "defined"
+  },
   "url": "courts-tribunal-information-which"
 }

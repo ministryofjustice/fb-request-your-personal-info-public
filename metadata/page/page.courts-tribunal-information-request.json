@@ -29,6 +29,10 @@
   ],
   "enableSteps": true,
   "heading": "What information do you want from the courts and tribunal service?",
+  "show": {
+    "identifier": "auto_name__42",
+    "operator": "defined"
+  },
   "steps": [
     "page.courts-tribunal-information-which",
     "page.courts-tribunal-information-when",

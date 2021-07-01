@@ -10,6 +10,10 @@
     }
   ],
   "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__24",
+    "operator": "defined"
+  },
   "steps": [
     "page.probation-reference-number",
     "page.probation-what-information-do-you-want",

@@ -11,6 +11,14 @@
     }
   ],
   "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__23",
+    "operator": "defined"
+  },
+  "showSteps": {
+    "identifier": "auto_name__23",
+    "operator": "defined"
+  },
   "steps": [
     "page.own-data-which-prison",
     "page.own-data-what-info-prison"
