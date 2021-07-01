@@ -30,11 +30,18 @@
   "heading": "Request your personal information",
   "steps": [
     "page.requesting-own-data",
+    "page.data-subject-name",
+    "page.date-of-birth",
+    "page.identity-documents-self-requester",
+    "page.own-data-need-prison-data",
     "page.subject-offender-ex-offender",
     "page.relationship-data-subject",
+    "page.person-in-custody",
     "page._letter-of-consent",
-    "page.data-subject-name",
-    "page.date-of-birth"
+    "page.application-where-would-you-like-information-from",
+    "page.exit",
+    "page.own-data-for-court-case",
+    "page.own-data-what-is-nomis-number"
   ],
   "url": "/"
 }

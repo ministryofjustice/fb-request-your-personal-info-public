@@ -50,5 +50,10 @@
     }
   ],
   "heading": "What is the data subject's name?",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
   "url": "data-subject-name"
 }
