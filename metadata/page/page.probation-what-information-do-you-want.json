@@ -30,14 +30,18 @@
           "conditionalComponent": {
             "_id": "page.probation-what-information-do-you-want--checkboxes--checkbox.auto_name__50--text.auto_name__51",
             "_type": "text",
-            "hint": "Please tell us which probation information you require",
+            "hint": "",
+            "label": "Please tell us which probation information you require",
             "name": "auto_name__51"
           },
           "label": "Something else",
           "name": "auto_name__50"
         }
       ],
-      "legend": "What information do you want from probation services? "
+      "legend": "What information do you want from probation services? ",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "url": "probation-what-information-do-you-want"
