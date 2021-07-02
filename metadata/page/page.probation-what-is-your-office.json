@@ -1,0 +1,23 @@
+{
+  "_id": "page.probation-what-is-your-office",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.probation-what-is-your-office--text.auto_name__45",
+      "_type": "text",
+      "label": "What is your probation supervising office?",
+      "name": "auto_name__45"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__24",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.probation-reference-number",
+    "page.probation-what-information-do-you-want",
+    "page.probation-time-period"
+  ],
+  "url": "probation-what-is-your-office"
+}

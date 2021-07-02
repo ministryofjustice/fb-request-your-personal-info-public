@@ -19,6 +19,24 @@
           "name": "auto_name__24"
         },
         {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__40",
+          "_type": "checkbox",
+          "label": "Legal Aid Agency",
+          "name": "auto_name__40"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__41",
+          "_type": "checkbox",
+          "label": "Office of the Public Guardian",
+          "name": "auto_name__41"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__42",
+          "_type": "checkbox",
+          "label": "HM Courts and Tribunals",
+          "name": "auto_name__42"
+        },
+        {
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__25",
           "_type": "checkbox",
           "label": "Elsewhere within the Ministry of Justice",

@@ -1,0 +1,44 @@
+{
+  "_id": "page.address-at-the-time-of-hearing-tribunal",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__61",
+      "_type": "text",
+      "label": "Building and street",
+      "name": "auto_name__61"
+    },
+    {
+      "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__62",
+      "_type": "text",
+      "label": "Address line 2",
+      "name": "auto_name__62",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__63",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__63",
+      "widthClassInput": "20"
+    },
+    {
+      "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__64",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__64",
+      "widthClassInput": "20"
+    },
+    {
+      "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__65",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__65",
+      "widthClassInput": "10"
+    }
+  ],
+  "heading": "What was the address of the data subject at the time of the case?",
+  "url": "address-at-the-time-of-hearing-tribunal"
+}

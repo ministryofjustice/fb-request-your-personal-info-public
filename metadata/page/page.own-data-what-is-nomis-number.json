@@ -6,11 +6,19 @@
       "_id": "page.own-data-what-is-nomis-number--text.auto_name__29",
       "_type": "text",
       "hint": "For example, A1234AA",
-      "label": "What is your NOMIS number?",
+      "label": "What is the data subjects NOMIS number?",
       "name": "auto_name__29"
     }
   ],
   "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__23",
+    "operator": "defined"
+  },
+  "showSteps": {
+    "identifier": "auto_name__23",
+    "operator": "defined"
+  },
   "steps": [
     "page.own-data-which-prison",
     "page.own-data-what-info-prison"
