@@ -45,7 +45,9 @@
     "page.cctv-what-do-you-want",
     "page.probation-what-is-your-office",
     "page.courts-tribunal-information-request",
-    "page.opg"
+    "page.opg",
+    "page.laa",
+    "page.info-from-elsewhere"
   ],
   "url": "/"
 }

@@ -1,0 +1,25 @@
+{
+  "_id": "page.laa",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.laa--textarea.auto_name__69",
+      "_type": "textarea",
+      "label": "What information do you want from the LAA?",
+      "name": "auto_name__69"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__40",
+    "operator": "defined"
+  },
+  "showSteps": {
+    "identifier": "auto_name__40",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.laa-date"
+  ],
+  "url": "laa"
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "page.info-from-elsewhere-date",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.info-from-elsewhere-date--date.auto_name__73",
+      "_type": "date",
+      "legend": "From",
+      "name": "auto_name__73"
+    },
+    {
+      "_id": "page.info-from-elsewhere-date--date.auto_name__74",
+      "_type": "date",
+      "legend": "To",
+      "name": "auto_name__74"
+    }
+  ],
+  "heading": "What period of time do you want to cover? (optional) ",
+  "lede": "We can respond faster if you know roughly when you want your information from",
+  "url": "info-from-elsewhere-date"
+}

@@ -65,18 +65,21 @@
                   {
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__34",
                     "_type": "checkbox",
+                    "hint": "A summary of key security-linked events\r\n\r\n",
                     "label": "Security data",
                     "name": "auto_name__34"
                   },
                   {
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__35",
                     "_type": "checkbox",
+                    "hint": "This is your paper file and includes things such as: recat paperwork, escort risk assessment, IEP reports, Release on Temporary Licence paperwork, ACCT (Assessment, Care in Custody, Teamwork) logs, applications and complaints",
                     "label": "Core record",
                     "name": "auto_name__35"
                   },
                   {
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__36",
                     "_type": "checkbox",
+                    "hint": "Video recordings are held for up to 3 months\r\n\r\n",
                     "label": "CCTV or other video footage",
                     "name": "auto_name__36"
                   },
@@ -92,8 +95,8 @@
                     "conditionalComponent": {
                       "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__38--textarea.auto_name__39",
                       "_type": "textarea",
-                      "name": "auto_name__39",
                       "label": "Please specify what other information you would like",
+                      "name": "auto_name__39",
                       "validation": {
                         "required": {
                           "identifier": "auto_name__38",

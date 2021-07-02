@@ -1,0 +1,21 @@
+{
+  "_id": "page.info-from-elsewhere",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.info-from-elsewhere--textarea.auto_name__72",
+      "_type": "textarea",
+      "label": "What information from elsewhere in Ministry of Justice Headquarters do you want? ",
+      "name": "auto_name__72"
+    }
+  ],
+  "enableSteps": true,
+  "showSteps": {
+    "identifier": "auto_name__25",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.info-from-elsewhere-date"
+  ],
+  "url": "info-from-elsewhere"
+}

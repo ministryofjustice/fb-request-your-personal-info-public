@@ -1,0 +1,20 @@
+{
+  "_id": "page.laa-date",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.laa-date--date.auto_name__70",
+      "_type": "date",
+      "legend": "From",
+      "name": "auto_name__70"
+    },
+    {
+      "_id": "page.laa-date--date.auto_name__71",
+      "_type": "date",
+      "legend": "To",
+      "name": "auto_name__71"
+    }
+  ],
+  "heading": "What period of time do you want to cover? (optional) ",
+  "url": "laa-date"
+}

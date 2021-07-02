@@ -14,6 +14,10 @@
     }
   ],
   "enableSteps": true,
+  "show": {
+    "identifier": "auto_name__41",
+    "operator": "defined"
+  },
   "showSteps": {
     "identifier": "auto_name__41",
     "operator": "defined"
