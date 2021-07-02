@@ -11,7 +11,11 @@
     {
       "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__62",
       "_type": "text",
-      "name": "auto_name__62"
+      "label": "Address line 2",
+      "name": "auto_name__62",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.address-at-the-time-of-hearing-tribunal--text.auto_name__63",

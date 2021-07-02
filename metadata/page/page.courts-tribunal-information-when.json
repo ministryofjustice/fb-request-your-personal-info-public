@@ -6,13 +6,19 @@
       "_id": "page.courts-tribunal-information-when--date.auto_name__59",
       "_type": "date",
       "legend": "Date of trial or hearing",
-      "name": "auto_name__59"
+      "name": "auto_name__59",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.courts-tribunal-information-when--text.auto_name__60",
       "_type": "text",
       "label": "Year of trial or hearing (if you don't know the exact date)",
-      "name": "auto_name__60"
+      "name": "auto_name__60",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "When did your trial or hearing take place? (optional)",
