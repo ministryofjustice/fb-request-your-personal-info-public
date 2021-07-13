@@ -47,7 +47,9 @@
     "page.courts-tribunal-information-request",
     "page.opg",
     "page.laa",
-    "page.info-from-elsewhere"
+    "page.info-from-elsewhere",
+    "page.contact-information",
+    "page.check-answers"
   ],
   "url": "/"
 }
