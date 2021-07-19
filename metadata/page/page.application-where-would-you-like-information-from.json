@@ -9,7 +9,7 @@
         {
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__23",
           "_type": "checkbox",
-          "label": "HM Prison Service",
+          "label": "Her Majesty’s Prison Service",
           "name": "auto_name__23"
         },
         {
@@ -39,7 +39,7 @@
         {
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__25",
           "_type": "checkbox",
-          "label": "Elsewhere within the Ministry of Justice",
+          "label": "Another area of the Ministry of Justice",
           "name": "auto_name__25"
         }
       ],

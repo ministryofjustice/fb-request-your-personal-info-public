@@ -5,8 +5,8 @@
     {
       "_id": "page.own-data-what-is-nomis-number--text.auto_name__29",
       "_type": "text",
-      "hint": "For example, A1234AA",
-      "label": "What is the data subjects NOMIS number?",
+      "hint": "You may know this as NOMIS number. For example, A1234AA",
+      "label": "What is the prison number of the person you are requesting information about?",
       "name": "auto_name__29"
     }
   ],

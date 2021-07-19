@@ -22,17 +22,17 @@
               }
             }
           },
-          "label": "Yes, this data is for an upcoming court case or hearing",
+          "label": "Yes",
           "value": "auto_value__27yes"
         },
         {
           "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--2",
           "_type": "radio",
-          "label": "No, this data is not for an upcoming court case or hearing",
+          "label": "No",
           "value": "auto_value__27no"
         }
       ],
-      "legend": "Is this data for a court case or hearing?",
+      "legend": "Do you need this information for an upcoming court case or hearing?",
       "name": "auto_name__27"
     }
   ],

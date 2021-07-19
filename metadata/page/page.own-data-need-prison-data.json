@@ -5,22 +5,22 @@
     {
       "_id": "page.own-data-need-prison-data--radios.auto_name__26",
       "_type": "radios",
-      "hint": "Do you require information relating to time in prison or on probation?",
+      "hint": "",
       "items": [
         {
           "_id": "page.own-data-need-prison-data--radios.auto_name__26--radio.auto_value__1",
           "_type": "radio",
-          "label": "Yes, I need prison or probation data",
+          "label": "Yes",
           "value": "auto_value__1"
         },
         {
           "_id": "page.own-data-need-prison-data--radios.auto_name__26--radio.auto_value__1--2",
           "_type": "radio",
-          "label": "No, I don't need prison or probation data",
+          "label": "No",
           "value": "auto_value__1"
         }
       ],
-      "legend": "Are you an offender or ex-offender?",
+      "legend": "Do you require information relating to time in prison or on probation?",
       "name": "auto_name__26"
     }
   ],

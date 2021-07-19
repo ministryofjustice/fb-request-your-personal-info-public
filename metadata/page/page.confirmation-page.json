@@ -1,0 +1,14 @@
+{
+  "_id": "page.confirmation-page",
+  "_type": "page.confirmation",
+  "body": "We have sent a confirmation to your email address",
+  "components": [
+    {
+      "_id": "page.confirmation-page--content",
+      "_type": "content"
+    }
+  ],
+  "heading": "Application complete",
+  "lede": "Your reference number is ",
+  "url": "confirmation-page"
+}

@@ -58,41 +58,41 @@
                     "$option": true,
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__33",
                     "_type": "checkbox",
-                    "hint": "These are your electronic case notes held on computer",
+                    "hint": "Including case notes, incidents, visits and visitors",
                     "label": "NOMIS records",
                     "name": "auto_name__33"
                   },
                   {
+                    "$component": true,
+                    "$definition": true,
+                    "$option": true,
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__34",
                     "_type": "checkbox",
-                    "hint": "A summary of key security-linked events\r\n\r\n",
+                    "hint": "A summary of key security-linked events\r\n",
                     "label": "Security data",
                     "name": "auto_name__34"
                   },
                   {
+                    "$component": true,
+                    "$definition": true,
+                    "$option": true,
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__35",
                     "_type": "checkbox",
-                    "hint": "This is your paper file and includes things such as: recat paperwork, escort risk assessment, IEP reports, Release on Temporary Licence paperwork, ACCT (Assessment, Care in Custody, Teamwork) logs, applications and complaints",
-                    "label": "Core record",
+                    "hint": "Including recat paperwork, escort risk assessment, IEP reports, Release on Temporary Licence paperwork, ACCT (Assessment, Care in Custody, Teamwork) logs, applications and complaints",
+                    "label": "Your prison file",
                     "name": "auto_name__35"
                   },
                   {
-                    "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__36",
-                    "_type": "checkbox",
-                    "hint": "Video recordings are held for up to 3 months\r\n\r\n",
-                    "label": "CCTV or other video footage",
-                    "name": "auto_name__36"
-                  },
-                  {
-                    "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__37",
-                    "_type": "checkbox",
-                    "label": "Telephone call recordings",
-                    "name": "auto_name__37"
-                  },
-                  {
+                    "$component": true,
+                    "$definition": true,
+                    "$option": true,
                     "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__38",
                     "_type": "checkbox",
                     "conditionalComponent": {
+                      "$component": true,
+                      "$control": true,
+                      "$definition": true,
+                      "$field": true,
                       "_id": "page.own-data-what-info-prison--radios.auto_name__31--radio.auto_value__1--2--group--checkboxes--checkbox.auto_name__38--textarea.auto_name__39",
                       "_type": "textarea",
                       "label": "Please specify what other information you would like",
@@ -116,10 +116,11 @@
           "value": "auto_value__31no"
         }
       ],
-      "legend": "Do you know exactly what information you would like?",
+      "legend": "Need to blank out this line",
       "name": "auto_name__31"
     }
   ],
-  "heading": "What information would you like from HM Prisons Service?",
+  "heading": "Do you know the specific information you need from HM Prison Service?",
+  "lede": "We can respond faster if you able to tell us specifically what you want. ",
   "url": "own-data-what-info-prison"
 }

@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to request personal information about you held by Her Majesty's Prison and Probation Service.\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.\r\n",
+  "body": "Use this form to request personal information about someone from Her Majesty's Prison and Probation Service.\r\n\r\nThis service is also available in Welsh (Cymraeg).\r\n\r\n## How long will it take ##\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as specific as possible about the information you need.\r\n",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "We aim to respond to all requests within a month."
+      "html": "We aim to respond to all requests within a month. Do not ask for an update before this point as it may delay your request.\r\n"
     },
     {
       "$component": true,
@@ -17,17 +17,17 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us find your information in our systems including your name, prison number and date of birth.\r\n\r\nYou may also be asked for details relating to your request, such as the location of your probation office or the date of your court case. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nIf you are applying for probation data, it would be useful if you could provide your probation supervising office.\r\n\r\nWe may charge you a fee to process your request if it is excessive. We will contact you to discuss before proceeding with the request.\r\n\r\n**We can only send your information to you. If you want your information to be sent to someone else, such as your solicitor or a relative, they will need to submit a request on your behalf.**"
+      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us process your request, such as your name, and date of birth.\r\n\r\nYou will also be asked for details relating to your request, such as the location of a probation office or the date of any court cases. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nYou will also need: \r\n\r\n* photo ID, such as a passport or driving licence \r\n* proof of address, such as utility bill dated in the last 3 months \r\n* If you are requesting information about someone else, photo ID and proof of address for that person plus a signed letter of consent from them\r\n"
     }
   ],
   "extraComponents": [
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "You can also request via letter.\r\n\r\nThe online service is also available in Welsh (Cymraeg)."
+      "html": "## Other ways to make a request ##\r\n\r\n### Offenders and ex-offenders including prisoners ###\r\n\r\nIf you are representing an offender or prisoner or former prisoner and want to make a subject access request on their behalf for a copy of personal information held by Her Majesty’s Prison and Probation Service, send your request by post, ensuring that you include ID to:\r\n\r\nBranston Registry\r\nBuilding 16, S & T Store\r\nBurton Road\r\nBranston\r\nBurton-on-Trent\r\nStaffordshire\r\nDE14 3EG\r\n\r\nor email: data.access1@justice.gov.uk\r\n\r\n### Members of the public and court users ###\r\n\r\n(INSERT TEXT HERE)\r\n\r\nDisclosure Team\r\nPost point 10.25\r\n102 Petty France\r\nLondon\r\nSW1H 9AJ\r\n\r\nor email: data.access@justice.gov.uk\r\n\r\n\r\n\r\n"
     }
   ],
-  "heading": "Request your personal information",
+  "heading": "Request personal information",
   "steps": [
     "page.requesting-own-data",
     "page.data-subject-name",
@@ -39,7 +39,6 @@
     "page.person-in-custody",
     "page._letter-of-consent",
     "page.application-where-would-you-like-information-from",
-    "page.exit",
     "page.own-data-for-court-case",
     "page.own-data-what-is-nomis-number",
     "page.cctv-what-do-you-want",
@@ -49,7 +48,8 @@
     "page.laa",
     "page.info-from-elsewhere",
     "page.contact-information",
-    "page.check-answers"
+    "page.check-answers",
+    "page.confirmation-page"
   ],
   "url": "/"
 }

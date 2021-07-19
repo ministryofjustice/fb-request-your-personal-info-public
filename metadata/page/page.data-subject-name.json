@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.data-subject-name--text.auto_name__6",
       "_type": "text",
-      "label": "First name of data subject",
+      "label": "First name ",
       "name": "auto_name__6"
     },
     {
@@ -19,7 +19,7 @@
       "$field": true,
       "_id": "page.data-subject-name--text.auto_name__11",
       "_type": "text",
-      "label": "Middle name of data subject: (optional)",
+      "label": "Middle name (optional)",
       "name": "auto_name__11",
       "validation": {
         "required": false
@@ -32,7 +32,7 @@
       "$field": true,
       "_id": "page.data-subject-name--text.auto_name__12",
       "_type": "text",
-      "label": "Last name of data subject:",
+      "label": "Last name",
       "name": "auto_name__12"
     },
     {
@@ -49,7 +49,7 @@
       }
     }
   ],
-  "heading": "What is the data subject's name?",
+  "heading": "What is the name of the person you are requesting information about?",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",

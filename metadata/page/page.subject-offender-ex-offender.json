@@ -9,17 +9,17 @@
         {
           "_id": "page.subject-offender-ex-offender--radios.auto_name__2--radio.auto_value__3",
           "_type": "radio",
-          "label": "Yes, subject is offender or ex-offender",
+          "label": "Yes",
           "value": "auto_value__3"
         },
         {
           "_id": "page.subject-offender-ex-offender--radios.auto_name__2--radio.auto_value__4",
           "_type": "radio",
-          "label": "No, subject is not offender or ex-offender",
+          "label": "No",
           "value": "auto_value__4"
         }
       ],
-      "legend": "Are you requesting data on behalf of an offender or ex-offender?",
+      "legend": "Do you require information relating to a person’s time in prison or on probation?",
       "name": "auto_name__2"
     }
   ],

@@ -9,17 +9,17 @@
         {
           "_id": "page.person-in-custody--radios.auto_name__15--radio.auto_value__2",
           "_type": "radio",
-          "label": "Yes, the person is currently in prison or in custody",
+          "label": "Yes",
           "value": "auto_value__2"
         },
         {
           "_id": "page.person-in-custody--radios.auto_name__15--radio.auto_value__2--2",
           "_type": "radio",
-          "label": "No, the person is not currently in prison or in custody",
+          "label": "No",
           "value": "auto_value__2"
         }
       ],
-      "legend": "Is the the person you are requesting information about currently in prison or custody?",
+      "legend": "Is the person you are requesting information about currently in prison or custody?",
       "name": "auto_name__15"
     }
   ],

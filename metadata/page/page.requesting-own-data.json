@@ -9,17 +9,17 @@
         {
           "_id": "page.requesting-own-data--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
-          "label": "My own data",
+          "label": "Mine",
           "value": "auto_value__1"
         },
         {
           "_id": "page.requesting-own-data--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
-          "label": "Data on behalf of someone else",
+          "label": "Someone else's",
           "value": "auto_value__2"
         }
       ],
-      "legend": "Are you requesting your own data or data on behalf  of someone else?",
+      "legend": "Are you requesting your own information or someone else’s",
       "name": "auto_name__1"
     }
   ],
