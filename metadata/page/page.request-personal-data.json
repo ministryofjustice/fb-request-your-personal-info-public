@@ -42,10 +42,8 @@
   },
   "steps": [
     "page.personal-dob",
-    "page.employment-or-job-application",
     "page.personal-criminal-convictions",
-    "page.personal-file-upload",
-    "page.where-would-you-like-information-from"
+    "page.personal-file-upload"
   ],
   "url": "request-personal-data"
 }

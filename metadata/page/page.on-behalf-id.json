@@ -1,0 +1,25 @@
+{
+  "_id": "page.on-behalf-id",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.on-behalf-id--upload.auto_name__8",
+      "_type": "upload",
+      "hint": "This can be a copy of your driving licence or passport. Maximum size: 7MB per file",
+      "label": "Photo ID",
+      "name": "auto_name__8"
+    },
+    {
+      "_id": "page.on-behalf-id--upload.auto_name__9",
+      "_type": "upload",
+      "hint": "This can be a copy of a bill in your name and dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
+      "label": "Proof of address",
+      "name": "auto_name__9"
+    }
+  ],
+  "heading": "Upload your ID documents",
+  "steps": [
+    "page.data-subject-name_subject-in-custodyon-behalf-id-check"
+  ],
+  "url": "on-behalf-id"
+}

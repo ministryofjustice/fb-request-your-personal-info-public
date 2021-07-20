@@ -49,11 +49,19 @@
       }
     }
   ],
+  "enableSteps": true,
   "heading": "What is the name of the person you are requesting information about?",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
     "value": "auto_value__2"
   },
+  "steps": [
+    "page.subject-date-of-birth",
+    "page.subject-criminal-conviction",
+    "page.relationship-subject",
+    "page.subject-in-custody",
+    "page.letter-of-consent2"
+  ],
   "url": "data-subject-name"
 }
