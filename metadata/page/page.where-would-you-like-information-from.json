@@ -1,0 +1,50 @@
+{
+  "_id": "page.where-would-you-like-information-from",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.where-would-you-like-information-from--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__84",
+          "_type": "checkbox",
+          "label": "Her Majesty’s Prison Service",
+          "name": "auto_name__84"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__85",
+          "_type": "checkbox",
+          "label": "Probation Service",
+          "name": "auto_name__85"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__86",
+          "_type": "checkbox",
+          "label": "Legal Aid Agency",
+          "name": "auto_name__86"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__87",
+          "_type": "checkbox",
+          "label": "Office of the Public Guardian",
+          "name": "auto_name__87"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__88",
+          "_type": "checkbox",
+          "label": "HM Courts and Tribunals",
+          "name": "auto_name__88"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__89",
+          "_type": "checkbox",
+          "label": "Another area of the Ministry of Justice",
+          "name": "auto_name__89"
+        }
+      ],
+      "legend": "Where would you like to get information from?"
+    }
+  ],
+  "url": "where-would-you-like-information-from"
+}

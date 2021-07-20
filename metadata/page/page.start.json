@@ -30,6 +30,7 @@
   "heading": "Request personal information",
   "steps": [
     "page.requesting-own-data",
+    "page.request-personal-data",
     "page.data-subject-name",
     "page.date-of-birth",
     "page.identity-documents-self-requester",

@@ -1,0 +1,51 @@
+{
+  "_id": "page.request-personal-data",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.request-personal-data--text.auto_name__36",
+      "_type": "text",
+      "label": "First name",
+      "name": "auto_name__36"
+    },
+    {
+      "_id": "page.request-personal-data--text.auto_name__37",
+      "_type": "text",
+      "label": "Middle name (optional)",
+      "name": "auto_name__37",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.request-personal-data--text.auto_name__77",
+      "_type": "text",
+      "label": "Last name",
+      "name": "auto_name__77"
+    },
+    {
+      "_id": "page.request-personal-data--text.auto_name__78",
+      "_type": "text",
+      "label": "Any nicknames or aliases that this information may be stored under (optional)",
+      "name": "auto_name__78",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "enableSteps": true,
+  "heading": "What is your name?",
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "steps": [
+    "page.personal-dob",
+    "page.employment-or-job-application",
+    "page.personal-criminal-convictions",
+    "page.personal-file-upload",
+    "page.where-would-you-like-information-from"
+  ],
+  "url": "request-personal-data"
+}

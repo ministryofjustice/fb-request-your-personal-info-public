@@ -1,0 +1,32 @@
+{
+  "_id": "page.personal-criminal-convictions",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.personal-criminal-convictions--radios.auto_name__81",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.personal-criminal-convictions--radios.auto_name__81--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.personal-criminal-convictions--radios.auto_name__81--radio.auto_value__2--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Do you have any criminal convictions or do you require information relating to time in prison or on probation? ",
+      "name": "auto_name__81"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__80",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
+  "url": "personal-criminal-convictions"
+}

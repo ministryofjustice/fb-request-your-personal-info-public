@@ -1,0 +1,5 @@
+{
+  "_id": "page.request-personal-data_personal-file-upload-check",
+  "_type": "page.uploadCheck",
+  "url": "request-personal-data/personal-file-upload-check"
+}
