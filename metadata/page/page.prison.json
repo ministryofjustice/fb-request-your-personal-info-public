@@ -7,9 +7,16 @@
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.prison--radios.auto_name__17--radio.auto_value__1",
           "_type": "radio",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--textarea.auto_name__18",
             "_type": "textarea",
             "label": "Tell us what information you would like from HM Prison Service",
@@ -19,11 +26,42 @@
           "value": "yes"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2",
           "_type": "radio",
           "conditionalComponent": {
             "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2--checkboxes",
             "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2--checkboxes--checkbox.auto_name__19",
+                "_type": "checkbox",
+                "hint": "Including case notes, incidents, visits and visitors",
+                "label": "NOMIS records ",
+                "name": "auto_name__19"
+              },
+              {
+                "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2--checkboxes--checkbox.auto_name__20",
+                "_type": "checkbox",
+                "hint": "A summary of key security-linked events",
+                "label": "Security data ",
+                "name": "auto_name__20"
+              },
+              {
+                "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2--checkboxes--checkbox.auto_name__30",
+                "_type": "checkbox",
+                "conditionalComponent": {
+                  "_id": "page.prison--radios.auto_name__17--radio.auto_value__1--2--checkboxes--checkbox.auto_name__30--textarea.auto_name__56",
+                  "_type": "textarea",
+                  "label": "Please specify what other information you would like ",
+                  "name": "auto_name__56"
+                },
+                "label": "Something else ",
+                "name": "auto_name__30"
+              }
+            ],
             "legend": "What information do you want from HM Prison Service? ",
             "validation": {
               "required": true
@@ -31,32 +69,6 @@
           },
           "label": "No",
           "value": "no"
-        },
-        {
-          "_id": "page.prison--radios.auto_name__17--radio.auto_value__5",
-          "_type": "radio",
-          "hint": "Including case notes, incidents, visits and visitors",
-          "label": "NOMIS records ",
-          "value": "auto_value__5"
-        },
-        {
-          "_id": "page.prison--radios.auto_name__17--radio.auto_value__6",
-          "_type": "radio",
-          "hint": "A summary of key security-linked events",
-          "label": "Security data",
-          "value": "auto_value__6"
-        },
-        {
-          "_id": "page.prison--radios.auto_name__17--radio.auto_value__7",
-          "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.prison--radios.auto_name__17--radio.auto_value__7--textarea.auto_name__19",
-            "_type": "textarea",
-            "label": "Please specify what other information you would like",
-            "name": "auto_name__19"
-          },
-          "label": "Something else ",
-          "value": "auto_value__7"
         }
       ],
       "legend": "We can respond faster if you are able to tell us specifically what you want",
