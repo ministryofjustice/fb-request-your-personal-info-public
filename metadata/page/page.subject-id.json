@@ -21,7 +21,7 @@
   "show": {
     "identifier": "auto_name__4",
     "operator": "is",
-    "value": "auto_value__1"
+    "value": "no"
   },
   "steps": [
     "page.data-subject-name_subject-in-custodysubject-id-check"

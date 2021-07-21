@@ -1,0 +1,32 @@
+{
+  "_id": "page.mine-prison-number",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.mine-prison-number--text.auto_name__32",
+      "_type": "text",
+      "hint": "You may know this as your NOMIS number. For example, A1234AA",
+      "label": "What is your prison number?",
+      "name": "auto_name__32"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "HM Prison Service",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "mine"
+      },
+      {
+        "identifier": "auto_name__23",
+        "operator": "defined"
+      }
+    ]
+  },
+  "steps": [
+    "page.mine-recent-prison"
+  ],
+  "url": "mine-prison"
+}
