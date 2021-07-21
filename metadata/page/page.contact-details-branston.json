@@ -9,12 +9,39 @@
         {
           "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__56",
+            "_type": "email",
+            "label": "Email address",
+            "name": "auto_name__56"
+          },
           "label": "Email",
           "value": "auto_value__3"
         },
         {
           "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__4",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__4--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__4--group--email.auto_name__57",
+                "_type": "email",
+                "label": "Email address",
+                "name": "auto_name__57",
+                "validation": {
+                  "required": false
+                }
+              },
+              {
+                "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__4--group--textarea.auto_name__58",
+                "_type": "textarea",
+                "label": "Address",
+                "name": "auto_name__58"
+              }
+            ]
+          },
           "label": "Post",
           "value": "auto_value__4"
         }
