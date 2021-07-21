@@ -19,9 +19,18 @@
   ],
   "heading": "Upload ID documents for the person you are requesting information about",
   "show": {
-    "identifier": "auto_name__4",
-    "operator": "is",
-    "value": "no"
+    "all": [
+      {
+        "identifier": "auto_name__4",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "auto_name__2",
+        "operator": "is",
+        "value": "relative_friend_somethingelse"
+      }
+    ]
   },
   "steps": [
     "page.data-subject-name_subject-in-custodysubject-id-check"

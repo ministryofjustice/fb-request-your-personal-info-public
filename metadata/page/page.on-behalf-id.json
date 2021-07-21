@@ -18,6 +18,11 @@
     }
   ],
   "heading": "Upload your ID documents",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "relative_friend_somethingelse"
+  },
   "steps": [
     "page.data-subject-name_subject-in-custodyon-behalf-id-check"
   ],

@@ -1,0 +1,21 @@
+{
+  "_id": "page.mine-address",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.mine-address--textarea.auto_name__51",
+      "_type": "textarea",
+      "label": "What was your address at the time of the case?  (Optional)",
+      "name": "auto_name__51",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "mine"
+  },
+  "url": "mine-address"
+}

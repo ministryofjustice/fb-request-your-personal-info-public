@@ -3,40 +3,33 @@
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.courts-tribunal-information-request--checkboxes",
-      "_type": "checkboxes",
-      "items": [
-        {
-          "_id": "page.courts-tribunal-information-request--checkboxes--checkbox.auto_name__54",
-          "_type": "checkbox",
-          "label": "CCTV or other video footage",
-          "name": "auto_name__54"
-        },
-        {
-          "_id": "page.courts-tribunal-information-request--checkboxes--checkbox.auto_name__55",
-          "_type": "checkbox",
-          "conditionalComponent": {
-            "_id": "page.courts-tribunal-information-request--checkboxes--checkbox.auto_name__55--text.auto_name__56",
-            "_type": "text",
-            "hint": "What piece of information do you need?",
-            "name": "auto_name__56"
-          },
-          "label": "Something else",
-          "name": "auto_name__55"
-        }
-      ]
+      "_id": "page.courts-tribunal-information-request--text.auto_name__49",
+      "_type": "text",
+      "label": "Court or tribunal name",
+      "name": "auto_name__49"
+    },
+    {
+      "_id": "page.courts-tribunal-information-request--text.auto_name__50",
+      "_type": "text",
+      "label": "Trial or hearing number (optional)",
+      "name": "auto_name__50",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "enableSteps": true,
-  "heading": "What information do you want from the courts and tribunal service?",
+  "heading": "Which court or tribunal do you want information from? ",
+  "sectionHeading": "HM Courts and Tribunal Service",
   "show": {
     "identifier": "auto_name__42",
     "operator": "defined"
   },
   "steps": [
-    "page.courts-tribunal-information-which",
     "page.courts-tribunal-information-when",
-    "page.address-at-the-time-of-hearing-tribunal"
+    "page.mine-address",
+    "page.subject-address",
+    "page.hmcts-data-required"
   ],
-  "url": "courts-tribunal-information-request"
+  "url": "HMCTS"
 }

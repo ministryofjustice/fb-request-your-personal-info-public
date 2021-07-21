@@ -1,0 +1,21 @@
+{
+  "_id": "page.subject-address",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.subject-address--textarea.auto_name__52",
+      "_type": "textarea",
+      "label": "What was the address of the person you are requesting information about at the time of the case? (Optional)",
+      "name": "auto_name__52",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__1",
+    "operator": "is",
+    "value": "someone-else"
+  },
+  "url": "subject-address"
+}

@@ -24,11 +24,7 @@
     }
   ],
   "enableSteps": true,
-  "show": {
-    "identifier": "auto_name__2",
-    "operator": "is",
-    "value": "relative_friend_somethingelse"
-  },
+  "show": true,
   "steps": [
     "page.subject-id",
     "page.on-behalf-id"
