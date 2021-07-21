@@ -9,60 +9,12 @@
         {
           "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1",
           "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--group",
-            "_type": "group",
-            "components": [
-              {
-                "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--group--text.auto_name__21",
-                "_type": "text",
-                "label": "Name of firm",
-                "name": "auto_name__21"
-              },
-              {
-                "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--group--text.auto_name__22",
-                "_type": "text",
-                "label": "First name of requestor (optional)",
-                "name": "auto_name__22",
-                "validation": {
-                  "required": false
-                }
-              },
-              {
-                "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--group--text.auto_name__26",
-                "_type": "text",
-                "label": "Last name of requestor (optional)",
-                "name": "auto_name__26",
-                "validation": {
-                  "required": false
-                }
-              }
-            ]
-          },
           "label": "Solicitor",
           "value": "solicitor"
         },
         {
           "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--2",
           "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--2--group",
-            "_type": "group",
-            "components": [
-              {
-                "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--2--group--text.auto_name__80",
-                "_type": "text",
-                "label": "Your first name",
-                "name": "auto_name__80"
-              },
-              {
-                "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--2--group--text.auto_name__84",
-                "_type": "text",
-                "label": "Your last name",
-                "name": "auto_name__84"
-              }
-            ]
-          },
           "label": "Relative, friend or something else",
           "value": "relative_friend_somethingelse"
         }
@@ -70,6 +22,11 @@
       "legend": "What is your relationship to the person you are requesting information about?",
       "name": "auto_name__2"
     }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.solicitor-details",
+    "page.requestor-details"
   ],
   "url": "relationship-subject"
 }

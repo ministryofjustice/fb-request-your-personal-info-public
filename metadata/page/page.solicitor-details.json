@@ -1,0 +1,37 @@
+{
+  "_id": "page.solicitor-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.solicitor-details--text.auto_name__57",
+      "_type": "text",
+      "label": "Name of firm",
+      "name": "auto_name__57"
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__58",
+      "_type": "text",
+      "label": "First name of requestor (optional)",
+      "name": "auto_name__58",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.solicitor-details--text.auto_name__61",
+      "_type": "text",
+      "label": "Last name of requestor (optional)",
+      "name": "auto_name__61",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "What are your details?",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "solicitor"
+  },
+  "url": "solicitor-details"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "page.requestor-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.requestor-details--text.auto_name__62",
+      "_type": "text",
+      "label": "First name",
+      "name": "auto_name__62"
+    },
+    {
+      "_id": "page.requestor-details--text.auto_name__63",
+      "_type": "text",
+      "label": "Last name",
+      "name": "auto_name__63"
+    }
+  ],
+  "heading": "What is your name?",
+  "show": {
+    "identifier": "auto_name__2",
+    "operator": "is",
+    "value": "relative_friend_somethingelse"
+  },
+  "url": "requestor-details"
+}
