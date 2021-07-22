@@ -44,8 +44,6 @@
       }
     ]
   },
-  "steps": [
-    "page.email"
-  ],
+  "steps": [],
   "url": "contact-preference"
 }

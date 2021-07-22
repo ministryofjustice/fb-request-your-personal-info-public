@@ -6,13 +6,19 @@
       "_id": "page.info-from-elsewhere-date--date.auto_name__73",
       "_type": "date",
       "legend": "From",
-      "name": "auto_name__73"
+      "name": "auto_name__73",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.info-from-elsewhere-date--date.auto_name__74",
       "_type": "date",
       "legend": "To",
-      "name": "auto_name__74"
+      "name": "auto_name__74",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "What period of time do you want to cover? (optional) ",
