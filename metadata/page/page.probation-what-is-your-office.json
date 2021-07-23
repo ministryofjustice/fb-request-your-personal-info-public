@@ -9,7 +9,7 @@
       "name": "auto_name__45"
     }
   ],
-  "enableSteps": true,
+  "enableSteps": false,
   "sectionHeading": "Probation Service",
   "show": {
     "all": [
