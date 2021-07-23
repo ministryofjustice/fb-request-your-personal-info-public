@@ -1,0 +1,43 @@
+{
+  "_id": "page.case-date",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.case-date--radios.auto_name__16",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.case-date--radios.auto_name__16--radio.auto_value__5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.case-date--radios.auto_name__16--radio.auto_value__5--date.auto_name__35",
+            "_type": "date",
+            "legend": "Date of trial or hearing",
+            "name": "auto_name__35"
+          },
+          "label": "Yes",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.case-date--radios.auto_name__16--radio.auto_value__6",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.case-date--radios.auto_name__16--radio.auto_value__6--text.auto_name__46",
+            "_type": "text",
+            "hint": "We can respond faster if we know when the trial or hearing took place",
+            "label": "Year of trial or hearing (optional)",
+            "name": "auto_name__46",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "No",
+          "value": "auto_value__6"
+        }
+      ],
+      "legend": "Do you know when the trial or hearing took place?",
+      "name": "auto_name__16"
+    }
+  ],
+  "url": "case-date"
+}

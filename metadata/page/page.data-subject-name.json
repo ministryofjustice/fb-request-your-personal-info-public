@@ -58,9 +58,8 @@
   },
   "steps": [
     "page.subject-date-of-birth",
-    "page.subject-criminal-conviction",
     "page.relationship-subject",
-    "page.subject-in-custody",
+    "page.subject-criminal-conviction",
     "page.letter-of-consent2"
   ],
   "url": "data-subject-name"

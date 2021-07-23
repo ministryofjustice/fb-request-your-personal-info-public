@@ -17,7 +17,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us process your request, such as your name, and date of birth.\r\n\r\nYou will also be asked for details relating to your request, such as the location of a probation office or the date of any court cases. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nYou will also need: \r\n\r\n* photo ID, such as a passport or driving licence \r\n* proof of address, such as utility bill dated in the last 3 months \r\n* If you are requesting information about someone else, photo ID and proof of address for that person plus a signed letter of consent from them\r\n"
+      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us process your request, such as your name, and date of birth.\r\n\r\nYou will also be asked for details relating to your request, such as the location of a probation office or the date of any court cases. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nYou will also need: \r\n\r\n* photo ID, such as a passport or driving licence \r\n* proof of address, such a bank statement or utility bill dated in the last 3 months \r\n* If you are requesting information about someone else, photo ID and proof of address for that person plus a signed letter of consent from them\r\n* If you are a solicitor, you will only need a signed letter of consent\r\n"
     }
   ],
   "extraComponents": [
@@ -29,11 +29,11 @@
   ],
   "heading": "Request personal information",
   "steps": [
+    "page.application-where-would-you-like-information-from",
+    "page.own-data-for-court-case",
     "page.requesting-own-data",
     "page.request-personal-data",
     "page.data-subject-name",
-    "page.application-where-would-you-like-information-from",
-    "page.own-data-for-court-case",
     "page.subject-prison--2",
     "page.mine-prison-number",
     "page.prison",

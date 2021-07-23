@@ -26,10 +26,10 @@
     "operator": "defined"
   },
   "steps": [
-    "page.courts-tribunal-information-when",
+    "page.case-date",
     "page.mine-address",
     "page.subject-address",
-    "page.hmcts-data-required"
+    "page.hmcts-data-required2"
   ],
   "url": "HMCTS"
 }
