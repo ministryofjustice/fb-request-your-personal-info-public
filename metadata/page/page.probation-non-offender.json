@@ -1,0 +1,34 @@
+{
+  "_id": "page.probation-non-offender",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.probation-non-offender--textarea.auto_name__7",
+      "_type": "textarea",
+      "hint": "We can respond faster if you are able to tell us specifically what you want",
+      "label": "What information do you want from the Probation Service? ",
+      "name": "auto_name__7"
+    }
+  ],
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__24",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__81",
+        "negated": true,
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "auto_name__13",
+        "negated": true,
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "probation-non-offender"
+}

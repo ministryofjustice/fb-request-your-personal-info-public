@@ -39,8 +39,24 @@
   "enableSteps": true,
   "sectionHeading": "Probation Service",
   "show": {
-    "identifier": "auto_name__24",
-    "operator": "defined"
+    "all": [
+      {
+        "identifier": "auto_name__24",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__81",
+        "negated": true,
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "auto_name__13",
+        "negated": true,
+        "operator": "is",
+        "value": "no"
+      }
+    ]
   },
   "steps": [
     "page.probation-dates"

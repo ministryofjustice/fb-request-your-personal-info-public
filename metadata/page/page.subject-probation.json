@@ -21,6 +21,11 @@
         "identifier": "auto_name__1",
         "operator": "is",
         "value": "someone-else"
+      },
+      {
+        "identifier": "auto_name__13",
+        "operator": "is",
+        "value": "yes"
       }
     ]
   },

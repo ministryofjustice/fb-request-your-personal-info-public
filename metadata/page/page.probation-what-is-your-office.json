@@ -21,6 +21,11 @@
         "identifier": "auto_name__1",
         "operator": "is",
         "value": "mine"
+      },
+      {
+        "identifier": "auto_name__81",
+        "operator": "is",
+        "value": "yes"
       }
     ]
   },
