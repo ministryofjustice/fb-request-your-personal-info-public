@@ -1,0 +1,30 @@
+{
+  "_id": "page.subject-prison--2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.subject-prison--2--text.auto_name__15",
+      "_type": "text",
+      "hint": "You may know this as a NOMIS number. For example, A1234AA",
+      "label": "What is the prison number of the person you are requesting information about? ",
+      "name": "auto_name__15"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "HM Prison Service",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "someone-else"
+      },
+      {
+        "identifier": "auto_name__23",
+        "operator": "defined"
+      }
+    ]
+  },
+  "steps": [],
+  "url": "subject-prison"
+}

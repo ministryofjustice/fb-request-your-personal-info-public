@@ -11,16 +11,37 @@
       "_type": "email",
       "hint": "We will only use this to send you an acknowledgement of your request",
       "label": "Email address (optional) ",
-      "name": "auto_name__75"
+      "name": "auto_name__75",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.contact-information--textarea.auto_name__76",
       "_type": "textarea",
-      "hint": "We will only use this to send you your request",
+      "hint": "This is where we'll send our response to",
       "label": "Your address",
       "name": "auto_name__76"
     }
   ],
   "heading": "Your contact details  ",
+  "show": {
+    "any": [
+      {
+        "identifier": "auto_name__23",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__54",
+        "operator": "is",
+        "value": "auto_value__4"
+      }
+    ],
+    "conditionsType": "any"
+  },
   "url": "contact-information"
 }

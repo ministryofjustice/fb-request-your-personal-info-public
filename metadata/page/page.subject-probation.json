@@ -1,12 +1,12 @@
 {
-  "_id": "page.probation-what-is-your-office",
+  "_id": "page.subject-probation",
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.probation-what-is-your-office--text.auto_name__45",
+      "_id": "page.subject-probation--text.auto_name__34",
       "_type": "text",
-      "label": "Where is your probation office?",
-      "name": "auto_name__45"
+      "label": "Where is the probation office of the person you are requesting information about? ",
+      "name": "auto_name__34"
     }
   ],
   "enableSteps": true,
@@ -20,10 +20,10 @@
       {
         "identifier": "auto_name__1",
         "operator": "is",
-        "value": "mine"
+        "value": "someone-else"
       }
     ]
   },
   "steps": [],
-  "url": "mine-probation"
+  "url": "subject-probation"
 }

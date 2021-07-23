@@ -1,0 +1,32 @@
+{
+  "_id": "page.relationship-subject",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.relationship-subject--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Solicitor",
+          "value": "solicitor"
+        },
+        {
+          "_id": "page.relationship-subject--radios.auto_name__2--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Relative, friend or something else",
+          "value": "relative_friend_somethingelse"
+        }
+      ],
+      "legend": "What is your relationship to the person you are requesting information about?",
+      "name": "auto_name__2"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.solicitor-details",
+    "page.requestor-details"
+  ],
+  "url": "relationship-subject"
+}

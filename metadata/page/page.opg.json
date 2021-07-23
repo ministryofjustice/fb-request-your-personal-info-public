@@ -18,10 +18,6 @@
     "identifier": "auto_name__41",
     "operator": "defined"
   },
-  "showSteps": {
-    "identifier": "auto_name__41",
-    "operator": "defined"
-  },
   "steps": [
     "page.opg-date"
   ],

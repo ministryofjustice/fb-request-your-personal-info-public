@@ -1,0 +1,49 @@
+{
+  "_id": "page.probation",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.probation--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.probation--checkboxes--checkbox.auto_name__38",
+          "_type": "checkbox",
+          "hint": "These are your electronic case notes held on computer",
+          "label": "nDelius file",
+          "name": "auto_name__38"
+        },
+        {
+          "_id": "page.probation--checkboxes--checkbox.auto_name__39",
+          "_type": "checkbox",
+          "hint": "Information about risk assessment of offenders",
+          "label": "Multi Agency Public Protection Arrangements (MAPPA) executive summaries ",
+          "name": "auto_name__39"
+        },
+        {
+          "_id": "page.probation--checkboxes--checkbox.auto_name__43",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.probation--checkboxes--checkbox.auto_name__43--textarea.auto_name__44",
+            "_type": "textarea",
+            "label": "Please specify what other information you would like ",
+            "name": "auto_name__44"
+          },
+          "label": "Something else",
+          "name": "auto_name__43"
+        }
+      ],
+      "legend": "What information would you like from the Probation Service?"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "Probation Service",
+  "show": {
+    "identifier": "auto_name__24",
+    "operator": "defined"
+  },
+  "steps": [
+    "page.probation-dates"
+  ],
+  "url": "probation"
+}

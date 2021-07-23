@@ -1,0 +1,44 @@
+{
+  "_id": "page.prison-or-custody",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.prison-or-custody--radios.auto_name__53",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.prison-or-custody--radios.auto_name__53--radio.auto_value__7",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.prison-or-custody--radios.auto_name__53--radio.auto_value__7--text.auto_name__55",
+            "_type": "text",
+            "label": "Which prison are they currently in? ",
+            "name": "auto_name__55"
+          },
+          "label": "Yes",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.prison-or-custody--radios.auto_name__53--radio.auto_value__8",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.prison-or-custody--radios.auto_name__53--radio.auto_value__8--text.auto_name__59",
+            "_type": "text",
+            "label": "Which prison were they most recently in? ",
+            "name": "auto_name__59"
+          },
+          "label": "No",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "Are they currently in prison or custody? ",
+      "name": "auto_name__53"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__13",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "url": "prison-or-custody"
+}

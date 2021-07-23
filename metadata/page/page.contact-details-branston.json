@@ -1,0 +1,49 @@
+{
+  "_id": "page.contact-details-branston",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.contact-details-branston--radios.auto_name__54",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__21",
+            "_type": "email",
+            "label": "What is your email address?",
+            "name": "auto_name__21"
+          },
+          "label": "Email",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Post",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "How would you like to receive your response?",
+      "name": "auto_name__54"
+    }
+  ],
+  "enableSteps": true,
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__23",
+        "negated": true,
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__24",
+        "negated": true,
+        "operator": "defined"
+      }
+    ]
+  },
+  "steps": [],
+  "url": "contact-preference"
+}

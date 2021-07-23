@@ -1,0 +1,14 @@
+{
+  "_id": "page.hmcts-data-required2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.hmcts-data-required2--textarea.auto_name__10",
+      "_type": "textarea",
+      "hint": "We can respond faster if you are able to tell us specifically what you want",
+      "label": "What information do you want from HM Courts and Tribunal Service?",
+      "name": "auto_name__10"
+    }
+  ],
+  "url": "hmcts-data-required"
+}

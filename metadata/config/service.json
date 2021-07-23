@@ -2,5 +2,10 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
   "_type": "config.service",
-  "name": "Request your personal information - Public"
+  "emailSubjectTeam": "Response from Request personal information",
+  "name": "Request personal information",
+  "pdfHeading": "Request personal information",
+  "phase": "alpha",
+  "phaseText": "This is a new service - your feedback will help us to improve it.",
+  "sessionDuration": 60
 }

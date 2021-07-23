@@ -5,12 +5,13 @@
     {
       "_id": "page.info-from-elsewhere--textarea.auto_name__72",
       "_type": "textarea",
-      "label": "What information from elsewhere in Ministry of Justice Headquarters do you want? ",
+      "hint": "We can respond faster if you can be specific about when the calls occurred",
+      "label": "What information from elsewhere in the Ministry of Justice do you want? ",
       "name": "auto_name__72"
     }
   ],
   "enableSteps": true,
-  "showSteps": {
+  "show": {
     "identifier": "auto_name__25",
     "operator": "defined"
   },

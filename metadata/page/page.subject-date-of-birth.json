@@ -1,0 +1,13 @@
+{
+  "_id": "page.subject-date-of-birth",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.subject-date-of-birth--date.auto_name__90",
+      "_type": "date",
+      "legend": "What is the date of birth of the person you are requesting information about?",
+      "name": "auto_name__90"
+    }
+  ],
+  "url": "subject-date-of-birth"
+}

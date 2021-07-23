@@ -49,11 +49,20 @@
       }
     }
   ],
+  "enableSteps": true,
   "heading": "What is the name of the person you are requesting information about?",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
-    "value": "auto_value__2"
+    "value": "someone-else"
   },
+  "steps": [
+    "page.subject-date-of-birth",
+    "page.relationship-subject",
+    "page.subject-criminal-conviction",
+    "page.subject-id--2",
+    "page.on-behalf-id--2",
+    "page.letter-of-consent2"
+  ],
   "url": "data-subject-name"
 }

@@ -14,10 +14,6 @@
     "identifier": "auto_name__40",
     "operator": "defined"
   },
-  "showSteps": {
-    "identifier": "auto_name__40",
-    "operator": "defined"
-  },
   "steps": [
     "page.laa-date"
   ],
