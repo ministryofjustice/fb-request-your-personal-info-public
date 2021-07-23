@@ -13,7 +13,7 @@
             "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__21",
             "_type": "email",
             "label": "What is your email address?",
-            "name": "auto_name__21"
+            "name": "email"
           },
           "label": "Email",
           "value": "auto_value__3"
