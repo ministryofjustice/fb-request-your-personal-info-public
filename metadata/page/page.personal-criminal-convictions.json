@@ -23,5 +23,18 @@
       "name": "auto_name__81"
     }
   ],
+  "show": {
+    "any": [
+      {
+        "identifier": "auto_name__23",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "defined"
+      }
+    ],
+    "conditionsType": "any"
+  },
   "url": "personal-criminal-convictions"
 }
