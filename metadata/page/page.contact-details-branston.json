@@ -41,8 +41,21 @@
         "identifier": "auto_name__24",
         "negated": true,
         "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__81",
+        "negated": true,
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "auto_name__13",
+        "negated": true,
+        "operator": "is",
+        "value": "yes"
       }
-    ]
+    ],
+    "conditionsType": "all"
   },
   "steps": [],
   "url": "contact-preference"
