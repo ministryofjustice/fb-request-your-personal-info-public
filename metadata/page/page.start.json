@@ -18,6 +18,14 @@
       "_id": "page.start--content--2",
       "_type": "content",
       "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us process your request, such as your name, and date of birth.\r\n\r\nYou will also be asked for details relating to your request, such as the location of a probation office or the date of any court cases. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nYou will also need: \r\n\r\n* photo ID, such as a passport or driving licence \r\n* proof of address, such a bank statement or utility bill dated in the last 3 months \r\n* If you are requesting information about someone else, photo ID and proof of address for that person plus a signed letter of consent from them\r\n* If you are a solicitor, you will only need a signed letter of consent\r\n"
+    },
+    {
+      "_id": "page.start--text.auto_name__22",
+      "_type": "hidden",
+      "label": "output_email",
+      "name": "output_email",
+      "show": true,
+      "value": "SAR.research+london@digital.justice.gov.uk"
     }
   ],
   "extraComponents": [
