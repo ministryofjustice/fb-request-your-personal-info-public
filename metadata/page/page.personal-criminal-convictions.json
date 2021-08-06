@@ -21,6 +21,14 @@
       ],
       "legend": "Do you require information relating to your time spent in prison or on probation?",
       "name": "auto_name__81"
+    },
+    {
+      "_id": "page.personal-criminal-convictions--text.auto_name__21",
+      "_type": "hidden",
+      "label": "output_email",
+      "name": "output_email",
+      "show": true,
+      "value": "SAR.research+branston@digital.justice.gov.uk"
     }
   ],
   "show": {
