@@ -43,7 +43,10 @@
           "name": "auto_name__25"
         }
       ],
-      "legend": "Where would you like to get information from? "
+      "legend": "Where would you like to get information from? ",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "url": "application-where-would-you-like-information-from"

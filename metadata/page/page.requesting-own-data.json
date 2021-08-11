@@ -19,7 +19,7 @@
           "value": "someone-else"
         }
       ],
-      "legend": "Are you requesting your own information or someone else’s",
+      "legend": "Are you requesting your own information or someone else’s?",
       "name": "auto_name__1"
     }
   ],

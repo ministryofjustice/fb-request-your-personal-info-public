@@ -20,7 +20,10 @@
         }
       ],
       "legend": "What is your relationship to the person you are requesting information about?",
-      "name": "auto_name__2"
+      "name": "auto_name__2",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "enableSteps": true,
