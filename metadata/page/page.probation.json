@@ -33,7 +33,10 @@
           "name": "auto_name__43"
         }
       ],
-      "legend": "What information would you like from the Probation Service?"
+      "legend": "What information would you like from the Probation Service?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "enableSteps": true,

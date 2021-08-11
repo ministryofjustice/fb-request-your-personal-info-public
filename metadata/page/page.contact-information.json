@@ -10,7 +10,7 @@
       "_id": "page.contact-information--email.auto_name__75",
       "_type": "email",
       "hint": "We will only use this to send you an acknowledgement of your request",
-      "label": "Email address (optional) ",
+      "label": "Your email address (optional) ",
       "name": "email",
       "validation": {
         "required": false

@@ -5,7 +5,7 @@
     {
       "_id": "page.info-from-elsewhere--textarea.auto_name__72",
       "_type": "textarea",
-      "hint": "We can respond faster if you can be specific about when the calls occurred",
+      "hint": "We can respond faster if you are able to tell us specifically what you want",
       "label": "What information from elsewhere in the Ministry of Justice do you want? ",
       "name": "auto_name__72"
     }
