@@ -22,13 +22,15 @@
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__40",
           "_type": "checkbox",
           "label": "Legal Aid Agency",
-          "name": "auto_name__40"
+          "name": "auto_name__40",
+          "show": false
         },
         {
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__41",
           "_type": "checkbox",
           "label": "Office of the Public Guardian",
-          "name": "auto_name__41"
+          "name": "auto_name__41",
+          "show": false
         },
         {
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__42",
