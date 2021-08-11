@@ -64,6 +64,7 @@
       "name": "auto_name__21"
     }
   ],
+  "enableSteps": true,
   "sectionHeading": "HM Prison Service  ",
   "show": {
     "all": [
@@ -85,5 +86,8 @@
       }
     ]
   },
+  "steps": [
+    "page.prison-dates"
+  ],
   "url": "prison-data"
 }
