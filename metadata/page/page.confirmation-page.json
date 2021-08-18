@@ -1,11 +1,13 @@
 {
   "_id": "page.confirmation-page",
   "_type": "page.confirmation",
+  "actionType": "custom-1",
   "body": "We have sent a confirmation to your email address",
   "components": [
     {
-      "_id": "page.confirmation-page--content",
-      "_type": "content"
+      "_id": "page.confirmation-page--inset",
+      "_type": "inset",
+      "html": "This is a new service and your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it."
     }
   ],
   "heading": "Application complete",
