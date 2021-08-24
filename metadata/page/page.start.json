@@ -37,11 +37,11 @@
   ],
   "heading": "Request personal information",
   "steps": [
-    "page.application-where-would-you-like-information-from",
-    "page.own-data-for-court-case",
     "page.requesting-own-data",
     "page.request-personal-data",
     "page.data-subject-name",
+    "page.application-where-would-you-like-information-from",
+    "page.own-data-for-court-case",
     "page.subject-prison--2",
     "page.mine-prison-number",
     "page.prison-non-offender",
