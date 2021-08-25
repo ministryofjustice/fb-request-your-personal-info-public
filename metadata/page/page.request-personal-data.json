@@ -42,7 +42,6 @@
   },
   "steps": [
     "page.personal-dob",
-    "page.personal-criminal-convictions",
     "page.personal-file-upload"
   ],
   "url": "request-personal-data"

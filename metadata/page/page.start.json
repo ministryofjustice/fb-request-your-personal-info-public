@@ -43,7 +43,6 @@
     "page.personal-information-hmpps",
     "page.information-relating-prison-probation",
     "page.application-where-would-you-like-information-from",
-    "page.own-data-for-court-case",
     "page.subject-prison--2",
     "page.mine-prison-number",
     "page.prison-non-offender",
@@ -58,6 +57,7 @@
     "page.info-from-elsewhere",
     "page.contact-details-branston",
     "page.contact-information",
+    "page.own-data-for-court-case",
     "page.check-answers",
     "page.confirmation-page"
   ],
