@@ -10,18 +10,23 @@
           "_id": "page.information-relating-prison-probation--radios.auto_name__18--radio.auto_value__7",
           "_type": "radio",
           "label": "Yes",
-          "value": "auto_value__7"
+          "value": "yes"
         },
         {
           "_id": "page.information-relating-prison-probation--radios.auto_name__18--radio.auto_value__7--2",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__7"
+          "value": "no"
         }
       ],
-      "legend": "Do you require information relating to your time spent in prison or on probation?",
+      "legend": "Do you require information relating to time spent in prison or on probation? ",
       "name": "auto_name__18"
     }
   ],
+  "show": {
+    "identifier": "auto_name__17",
+    "operator": "is",
+    "value": "yes"
+  },
   "url": "information-relating-prison-probation"
 }

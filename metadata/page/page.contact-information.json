@@ -26,22 +26,10 @@
   ],
   "heading": "Your contact details  ",
   "show": {
-    "any": [
-      {
-        "identifier": "auto_name__23",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__24",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__54",
-        "operator": "is",
-        "value": "auto_value__4"
-      }
-    ],
-    "conditionsType": "any"
+    "identifier": "auto_name__54",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__3"
   },
   "url": "contact-information"
 }

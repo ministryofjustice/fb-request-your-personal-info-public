@@ -18,16 +18,9 @@
         "operator": "defined"
       },
       {
-        "identifier": "auto_name__81",
-        "negated": true,
+        "identifier": "auto_name__18",
         "operator": "is",
-        "value": "yes"
-      },
-      {
-        "identifier": "auto_name__13",
-        "negated": true,
-        "operator": "is",
-        "value": "yes"
+        "value": "no"
       }
     ]
   },
