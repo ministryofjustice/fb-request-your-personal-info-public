@@ -59,7 +59,6 @@
   "steps": [
     "page.subject-date-of-birth",
     "page.relationship-subject",
-    "page.subject-criminal-conviction",
     "page.subject-id--2",
     "page.on-behalf-id--2",
     "page.letter-of-consent2"
