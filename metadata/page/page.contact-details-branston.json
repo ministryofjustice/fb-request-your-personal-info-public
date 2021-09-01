@@ -38,9 +38,9 @@
         "value": "no"
       },
       {
-        "identifier": "auto_name__17",
+        "identifier": "prison-or-probation",
         "operator": "is",
-        "value": "no"
+        "value": "e[DISCLOSURE]"
       }
     ],
     "conditionsType": "any"
