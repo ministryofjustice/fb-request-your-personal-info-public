@@ -20,7 +20,7 @@
         }
       ],
       "legend": "Do you want personal information from Her Majesty's Prison or Probation Services?",
-      "name": "prison-or-probation"
+      "name": "sendemail"
     }
   ],
   "url": "personal-information-hmpps"
