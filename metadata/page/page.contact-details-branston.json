@@ -38,7 +38,7 @@
         "value": "no"
       },
       {
-        "identifier": "prison-or-probation",
+        "identifier": "sendemail",
         "operator": "is",
         "value": "e[DISCLOSURE]"
       }
