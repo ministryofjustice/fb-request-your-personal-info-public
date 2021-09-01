@@ -24,7 +24,7 @@
     }
   ],
   "show": {
-    "identifier": "prison-or-probation",
+    "identifier": "sendemail",
     "operator": "is",
     "value": "e[BRANSTON]"
   },
