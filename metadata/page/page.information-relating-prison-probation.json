@@ -24,9 +24,9 @@
     }
   ],
   "show": {
-    "identifier": "auto_name__17",
+    "identifier": "prison-or-probation",
     "operator": "is",
-    "value": "yes"
+    "value": "e[BRANSTON]"
   },
   "url": "information-relating-prison-probation"
 }
