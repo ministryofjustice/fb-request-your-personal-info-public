@@ -38,9 +38,9 @@
         "value": "no"
       },
       {
-        "identifier": "auto_name__17",
+        "identifier": "output_email",
         "operator": "is",
-        "value": "no"
+        "value": "e[DISCLOSURE]"
       }
     ],
     "conditionsType": "any"
