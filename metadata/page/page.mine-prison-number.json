@@ -5,8 +5,8 @@
     {
       "_id": "page.mine-prison-number--text.auto_name__32",
       "_type": "text",
-      "hint": "You may know this as your NOMIS number. For example, A1234AA",
-      "label": "What is your prison number?",
+      "hint": "Also sometimes called your NOMIS number. For example, A1234AA",
+      "label": "What was your prison number?",
       "name": "auto_name__32"
     }
   ],
@@ -20,7 +20,7 @@
         "value": "mine"
       },
       {
-        "identifier": "auto_name__23",
+        "identifier": "auto_name__8",
         "operator": "defined"
       },
       {

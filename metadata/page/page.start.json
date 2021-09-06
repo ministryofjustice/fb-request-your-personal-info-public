@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "You can use this form to ask for personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* Legal Aid Agency \r\n* Office of the Public Guardian\r\n* HM Courts and Tribunals Service\r\n* The Ministry of Justice\r\n\r\nTo ask for personal information from other areas of MoJ, visit <link>.\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a solicitor asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a solicitor, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
+  "body": "You can use this form to ask for personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* Legal Aid Agency \r\n* Office of the Public Guardian\r\n* HM Courts and Tribunals Service\r\n\r\nIf you're after personal information from elsewhere in the Ministry of Justice please apply ......\r\n\r\nTo ask for personal information from other areas of MoJ, visit <link>.\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a solicitor asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a solicitor, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
   "components": [
     {
       "$component": true,
@@ -48,7 +48,6 @@
     "page.courts-tribunal-information-request",
     "page.opg",
     "page.laa",
-    "page.info-from-elsewhere",
     "page.contact-details-branston",
     "page.contact-information",
     "page.own-data-for-court-case",

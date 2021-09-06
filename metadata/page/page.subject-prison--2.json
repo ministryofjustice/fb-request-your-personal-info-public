@@ -5,8 +5,8 @@
     {
       "_id": "page.subject-prison--2--text.auto_name__15",
       "_type": "text",
-      "hint": "You may know this as a NOMIS number. For example, A1234AA",
-      "label": "What is the prison number of the person you are requesting information about? ",
+      "hint": "Also sometimes called their NOMIS number. For example, A1234AA",
+      "label": "What is their prison number?",
       "name": "auto_name__15"
     }
   ],
@@ -20,7 +20,7 @@
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__23",
+        "identifier": "auto_name__8",
         "operator": "defined"
       },
       {

@@ -5,47 +5,37 @@
     {
       "_id": "page.application-where-would-you-like-information-from--checkboxes",
       "_type": "checkboxes",
+      "hint": "Select all that are relevant to you",
       "items": [
         {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__23",
-          "_type": "checkbox",
-          "label": "Her Majesty’s Prison Service",
-          "name": "auto_name__23"
-        },
-        {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__24",
-          "_type": "checkbox",
-          "label": "Probation Service",
-          "name": "auto_name__24"
-        },
-        {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__40",
-          "_type": "checkbox",
-          "label": "Legal Aid Agency",
-          "name": "auto_name__40",
-          "show": false
-        },
-        {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__41",
-          "_type": "checkbox",
-          "label": "Office of the Public Guardian",
-          "name": "auto_name__41",
-          "show": false
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__42",
           "_type": "checkbox",
-          "label": "HM Courts and Tribunals",
+          "label": "HM Courts and Tribunals Service (HMCTS)",
           "name": "auto_name__42"
         },
         {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__25",
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
-          "label": "Another area of the Ministry of Justice",
-          "name": "auto_name__25"
+          "label": "Legal Aid Agency",
+          "name": "auto_name__11"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Office of the Public Guardian",
+          "name": "auto_name__12"
+        },
+        {
+          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "label": "Nowhere else",
+          "name": "auto_name__13"
         }
       ],
-      "legend": "Where would you like to get information from? ",
+      "legend": "Where else would you like information from? ",
       "validation": {
         "required": true
       }

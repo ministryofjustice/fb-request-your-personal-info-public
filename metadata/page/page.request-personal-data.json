@@ -3,27 +3,20 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.request-personal-data--text.auto_name__36",
       "_type": "text",
-      "label": "First name",
+      "label": "Full name",
       "name": "auto_name__36"
     },
     {
-      "_id": "page.request-personal-data--text.auto_name__37",
-      "_type": "text",
-      "label": "Middle name (optional)",
-      "name": "auto_name__37",
-      "validation": {
-        "required": false
-      }
-    },
-    {
-      "_id": "page.request-personal-data--text.auto_name__77",
-      "_type": "text",
-      "label": "Last name",
-      "name": "auto_name__77"
-    },
-    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.request-personal-data--text.auto_name__78",
       "_type": "text",
       "label": "Any nicknames or aliases that this information may be stored under (optional)",
