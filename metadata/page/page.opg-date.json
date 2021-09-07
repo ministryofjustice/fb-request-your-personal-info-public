@@ -6,13 +6,19 @@
       "_id": "page.opg-date--date.auto_name__66",
       "_type": "date",
       "legend": "From",
-      "name": "auto_name__66"
+      "name": "auto_name__66",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.opg-date--date.auto_name__68",
       "_type": "date",
       "legend": "To",
-      "name": "auto_name__68"
+      "name": "auto_name__68",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "What dates do you want this information from? (Optional) ",

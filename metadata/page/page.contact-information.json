@@ -22,7 +22,10 @@
       "_type": "email",
       "hint": "We will only use this to send you an acknowledgement of your request",
       "label": "Email address (optional)",
-      "name": "email"
+      "name": "email",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "Your contact details  ",

@@ -6,13 +6,19 @@
       "_id": "page.laa-date--date.auto_name__70",
       "_type": "date",
       "legend": "From",
-      "name": "auto_name__70"
+      "name": "auto_name__70",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.laa-date--date.auto_name__71",
       "_type": "date",
       "legend": "To",
-      "name": "auto_name__71"
+      "name": "auto_name__71",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "What dates do you want this information from? (Optional) ",
