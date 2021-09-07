@@ -3,25 +3,24 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.solicitor-details--text.auto_name__57",
       "_type": "text",
       "label": "Name of firm",
       "name": "auto_name__57"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.solicitor-details--text.auto_name__58",
       "_type": "text",
-      "label": "First name of requestor (optional)",
+      "label": "Your full name (optional)",
       "name": "auto_name__58",
-      "validation": {
-        "required": false
-      }
-    },
-    {
-      "_id": "page.solicitor-details--text.auto_name__61",
-      "_type": "text",
-      "label": "Last name of requestor (optional)",
-      "name": "auto_name__61",
       "validation": {
         "required": false
       }

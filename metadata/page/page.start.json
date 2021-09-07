@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to request personal information about someone from Her Majesty's Prison and Probation Service.\r\n\r\nThis service is also available in Welsh (Cymraeg).\r\n\r\n## How long will it take ##\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as specific as possible about the information you need.\r\n",
+  "body": "You can use this form to ask for personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* Legal Aid Agency \r\n* Office of the Public Guardian\r\n* HM Courts and Tribunals Service\r\n\r\nIf you're after personal information from elsewhere in the Ministry of Justice please apply ......\r\n\r\nTo ask for personal information from other areas of MoJ, visit <link>.\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a solicitor asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a solicitor, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "We aim to respond to all requests within a month. Do not ask for an update before this point as it may delay your request.\r\n"
+      "html": "Asking for an update during this time may mean it takes longer to get the information you want. "
     },
     {
       "$component": true,
@@ -17,31 +17,26 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Before you start ##\r\n\r\nYou will need to provide some personal details to help us process your request, such as your name, and date of birth.\r\n\r\nYou will also be asked for details relating to your request, such as the location of a probation office or the date of any court cases. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nYou will also need: \r\n\r\n* photo ID, such as a passport or driving licence \r\n* proof of address, such a bank statement or utility bill dated in the last 3 months \r\n* If you are requesting information about someone else, photo ID and proof of address for that person plus a signed letter of consent from them\r\n* If you are a solicitor, you will only need a signed letter of consent\r\n"
-    },
-    {
-      "_id": "page.start--text.auto_name__22",
-      "_type": "hidden",
-      "label": "output_email",
-      "name": "output_email",
-      "show": true,
-      "value": "SAR.research+london@digital.justice.gov.uk"
+      "html": "## Answering your request ##\r\n\r\nIf we hold any information about you, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n"
     }
   ],
   "extraComponents": [
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Other ways to make a request ##\r\n\r\n### Offenders and ex-offenders including prisoners ###\r\n\r\nIf you are representing an offender or prisoner or former prisoner and want to make a subject access request on their behalf for a copy of personal information held by Her Majesty’s Prison and Probation Service, send your request by post, ensuring that you include ID to:\r\n\r\nBranston Registry\r\nBuilding 16, S & T Store\r\nBurton Road\r\nBranston\r\nBurton-on-Trent\r\nStaffordshire\r\nDE14 3EG\r\n\r\nor email: <data.access1@justice.gov.uk>\r\n\r\n### Members of the public and court users ###\r\n\r\n(INSERT TEXT HERE)\r\n\r\nDisclosure Team\r\nPost point 10.25\r\n102 Petty France\r\nLondon\r\nSW1H 9AJ\r\n\r\nor email: <data.access@justice.gov.uk>"
+      "html": "## Other ways to ask for personal information ##\r\n\r\n[You can also send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
   "heading": "Request personal information",
   "steps": [
-    "page.application-where-would-you-like-information-from",
-    "page.own-data-for-court-case",
     "page.requesting-own-data",
     "page.request-personal-data",
     "page.data-subject-name",
+    "page.personal-information-hmpps",
+    "page.information-relating-prison-probation",
+    "page.application-where-would-you-like-information-from",
+    "page.currently-in-prison",
+    "page.subject-id",
     "page.subject-prison--2",
     "page.mine-prison-number",
     "page.prison-non-offender",
@@ -53,9 +48,9 @@
     "page.courts-tribunal-information-request",
     "page.opg",
     "page.laa",
-    "page.info-from-elsewhere",
     "page.contact-details-branston",
     "page.contact-information",
+    "page.own-data-for-court-case",
     "page.check-answers",
     "page.confirmation-page"
   ],

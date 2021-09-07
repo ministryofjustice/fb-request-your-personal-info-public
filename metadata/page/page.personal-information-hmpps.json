@@ -1,0 +1,50 @@
+{
+  "_id": "page.personal-information-hmpps",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.personal-information-hmpps--radios.auto_name__17",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--checkboxes",
+            "_type": "checkboxes",
+            "hint": "Select all that are relevant to you",
+            "items": [
+              {
+                "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--checkboxes--checkbox.auto_name__8",
+                "_type": "checkbox",
+                "label": "Prison Service",
+                "name": "auto_name__8"
+              },
+              {
+                "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--checkboxes--checkbox.auto_name__9",
+                "_type": "checkbox",
+                "label": "Probation Service",
+                "name": "auto_name__9"
+              }
+            ],
+            "legend": "Which area do you want information from?",
+            "validation": {
+              "required": true
+            }
+          },
+          "label": "Yes",
+          "value": "e[BRANSTON]"
+        },
+        {
+          "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--2",
+          "_type": "radio",
+          "label": "No",
+          "value": "e[DISCLOSURE]"
+        }
+      ],
+      "legend": "Do you want personal information from HM Prison and Probation Service (HMPPS)?  ",
+      "name": "output_email"
+    }
+  ],
+  "url": "personal-information-hmpps"
+}

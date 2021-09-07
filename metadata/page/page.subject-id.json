@@ -1,40 +1,45 @@
 {
-  "_id": "page.subject-id--2",
+  "_id": "page.subject-id",
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.subject-id--2--upload.auto_name__8",
+      "_id": "page.subject-id--upload.auto_name__30",
       "_type": "upload",
       "hint": "This can be a copy of their driving licence or passport. Maximum size: 7MB per file",
       "label": "Photo ID",
-      "name": "auto_name__8"
+      "name": "auto_name__30"
     },
     {
-      "_id": "page.subject-id--2--upload.auto_name__9",
+      "_id": "page.subject-id--upload.auto_name__31",
       "_type": "upload",
       "hint": "This can be a copy of a bill in your name and dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
       "label": "Proof of address",
-      "name": "auto_name__9"
+      "name": "auto_name__31"
     }
   ],
-  "heading": "Upload ID documents for the person you are requesting information about ",
+  "heading": "Upload their ID documents",
   "show": {
     "all": [
+      {
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "someone-else"
+      },
+      {
+        "identifier": "auto_name__19",
+        "negated": true,
+        "operator": "is",
+        "value": "yes"
+      },
       {
         "identifier": "auto_name__2",
         "operator": "is",
         "value": "relative_friend_somethingelse"
-      },
-      {
-        "identifier": "auto_name__53",
-        "negated": true,
-        "operator": "is",
-        "value": "auto_value__7"
       }
     ]
   },
   "steps": [
-    "page.data-subject-name_subject-id-check"
+    "page.subject-id-check"
   ],
   "url": "subject-id"
 }

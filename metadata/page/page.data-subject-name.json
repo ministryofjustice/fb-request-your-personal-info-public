@@ -9,31 +9,8 @@
       "$field": true,
       "_id": "page.data-subject-name--text.auto_name__6",
       "_type": "text",
-      "label": "First name ",
+      "label": "Full name",
       "name": "auto_name__6"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.data-subject-name--text.auto_name__11",
-      "_type": "text",
-      "label": "Middle name (optional)",
-      "name": "auto_name__11",
-      "validation": {
-        "required": false
-      }
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.data-subject-name--text.auto_name__12",
-      "_type": "text",
-      "label": "Last name",
-      "name": "auto_name__12"
     },
     {
       "$component": true,
@@ -50,7 +27,7 @@
     }
   ],
   "enableSteps": true,
-  "heading": "What is the name of the person you are requesting information about?",
+  "heading": "What is their name?",
   "show": {
     "identifier": "auto_name__1",
     "operator": "is",
@@ -59,8 +36,6 @@
   "steps": [
     "page.subject-date-of-birth",
     "page.relationship-subject",
-    "page.subject-criminal-conviction",
-    "page.subject-id--2",
     "page.on-behalf-id--2",
     "page.letter-of-consent2"
   ],

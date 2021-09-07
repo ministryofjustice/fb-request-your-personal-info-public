@@ -60,7 +60,7 @@
           "value": "auto_value__2"
         }
       ],
-      "legend": "Do you know the specific information you need from HM Prison Service? ",
+      "legend": "Do you know what information you would like from HM Prison Service? ",
       "name": "auto_name__21"
     }
   ],
@@ -69,20 +69,12 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__23",
-        "operator": "defined"
+        "identifier": "auto_name__8"
       },
       {
-        "identifier": "auto_name__13",
-        "negated": true,
+        "identifier": "auto_name__18",
         "operator": "is",
-        "value": "no"
-      },
-      {
-        "identifier": "auto_name__81",
-        "negated": true,
-        "operator": "is",
-        "value": "no"
+        "value": "yes"
       }
     ]
   },

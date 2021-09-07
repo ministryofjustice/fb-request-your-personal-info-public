@@ -44,20 +44,13 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__24",
+        "identifier": "auto_name__9",
         "operator": "defined"
       },
       {
-        "identifier": "auto_name__81",
-        "negated": true,
+        "identifier": "auto_name__18",
         "operator": "is",
-        "value": "no"
-      },
-      {
-        "identifier": "auto_name__13",
-        "negated": true,
-        "operator": "is",
-        "value": "no"
+        "value": "yes"
       }
     ]
   },

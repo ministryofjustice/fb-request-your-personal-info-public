@@ -5,10 +5,10 @@
   "attachUserSubmission": true,
   "emailInputNameUser": "email",
   "emailSubjectTeam": "Response from Request personal information",
-  "emailSubjectUser": "Response from Request personal information ",
-  "emailTemplateUser": "Thank you for submitting a request for personal information.\r\n\r\nWe will contact you in the next 5 days if we need any further information.",
+  "emailSubjectUser": "Request for personal information sent",
+  "emailTemplateUser": "You will receive an email in the next xx hours\r\n\r\nYour request will be checked in the next xx hours and you will then receive an email to confirm that you have supplied all the information needed or to ask you to provide more details.\r\n\r\nWhat happens next\r\n\r\nAfter you have provided all the necessary details, it takes up to 30 days to complete a request. Asking for an update during this time may mean it takes longer to get the information you want. \r\n\r\nReceiving personal information\r\n\r\nYour request is protected by the Data Protection Act which means the information is confidential. \r\n",
   "name": "Request personal information",
-  "pdfHeading": "Request personal information",
+  "pdfHeading": "Request for personal information",
   "phase": "beta",
   "phaseText": "This is a new service - your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it.",
   "sessionDuration": 60

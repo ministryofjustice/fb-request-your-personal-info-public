@@ -5,7 +5,7 @@
     {
       "_id": "page.subject-date-of-birth--date.auto_name__90",
       "_type": "date",
-      "legend": "What is the date of birth of the person you are requesting information about?",
+      "legend": "What is their date of birth?",
       "name": "auto_name__90"
     }
   ],

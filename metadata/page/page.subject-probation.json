@@ -5,7 +5,7 @@
     {
       "_id": "page.subject-probation--text.auto_name__34",
       "_type": "text",
-      "label": "Where is the probation office of the person you are requesting information about? ",
+      "label": "Where is their probation office?",
       "name": "auto_name__34"
     }
   ],
@@ -14,7 +14,7 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__24",
+        "identifier": "auto_name__9",
         "operator": "defined"
       },
       {
@@ -23,7 +23,7 @@
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__13",
+        "identifier": "auto_name__18",
         "operator": "is",
         "value": "yes"
       }

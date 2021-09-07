@@ -1,5 +1,8 @@
 {
   "_id": "page.check-answers",
   "_type": "page.summary",
+  "actionType": "custom-1",
+  "sendBody": "By submitting this request you confirm that, to the best of your knowledge, the details you are providing are correct.",
+  "sendHeading": "Now send your request",
   "url": "check-answers"
 }

@@ -1,0 +1,7 @@
+{
+  "_id": "button.custom-1",
+  "_type": "string",
+  "description": "Accept and send request",
+  "value": "Accept and send request",
+  "value:cy": ""
+}

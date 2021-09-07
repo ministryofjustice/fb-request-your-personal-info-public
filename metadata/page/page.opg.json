@@ -9,13 +9,14 @@
       "$field": true,
       "_id": "page.opg--textarea.auto_name__67",
       "_type": "textarea",
-      "label": "What information do you want from the OPG?",
+      "label": "What information do you want from the Office of the Public Guardian?",
       "name": "auto_name__67"
     }
   ],
   "enableSteps": true,
+  "sectionHeading": "Office of the Public Guardian",
   "show": {
-    "identifier": "auto_name__41",
+    "identifier": "auto_name__12",
     "operator": "defined"
   },
   "steps": [
