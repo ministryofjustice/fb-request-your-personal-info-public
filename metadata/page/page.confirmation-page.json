@@ -2,15 +2,26 @@
   "_id": "page.confirmation-page",
   "_type": "page.confirmation",
   "actionType": "custom-1",
-  "body": "We have sent a confirmation to your email address",
+  "body": "## What happens next ##\r\n\r\nIf you have provided all of the required information, you should receive a response within 30 days. We will contact you if need more details to answer your request.\r\n",
   "components": [
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.confirmation-page--inset",
       "_type": "inset",
-      "html": "This is a new service and your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it."
+      "html": "Asking for an update during this time may mean it takes longer to get the information you want."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.confirmation-page--content",
+      "_type": "content",
+      "html": "\r\n\r\nThis is a new service and your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it."
     }
   ],
-  "heading": "Application complete",
-  "lede": "Your reference number is ",
+  "heading": "Request sent",
+  "lede": "You should receive an acknowledgement in the next 5 working days",
   "url": "confirmation-page"
 }

@@ -5,13 +5,14 @@
     {
       "_id": "page.laa--textarea.auto_name__69",
       "_type": "textarea",
-      "label": "What information do you want from the LAA?",
+      "label": "What information do you want from the Legal Aid Agency?",
       "name": "auto_name__69"
     }
   ],
   "enableSteps": true,
+  "sectionHeading": "Legal Aid Agency",
   "show": {
-    "identifier": "auto_name__40",
+    "identifier": "auto_name__11",
     "operator": "defined"
   },
   "steps": [

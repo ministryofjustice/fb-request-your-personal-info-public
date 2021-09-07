@@ -5,11 +5,12 @@
     {
       "_id": "page.probation-non-offender--textarea.auto_name__7",
       "_type": "textarea",
-      "hint": "We can respond faster if you are able to tell us specifically what you want",
+      "hint": "We might be able to respond faster if you can tell us what information you want",
       "label": "What information do you want from the Probation Service? ",
       "name": "auto_name__7"
     }
   ],
+  "sectionHeading": "Probation Service",
   "show": {
     "all": [
       {

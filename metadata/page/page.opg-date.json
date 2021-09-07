@@ -15,7 +15,7 @@
       "name": "auto_name__68"
     }
   ],
-  "heading": "What period of time do you want to cover? (optional) ",
+  "heading": "What dates do you want this information from? (Optional) ",
   "lede": "We can respond faster if you know roughly when you want your information from",
   "show": true,
   "url": "opg-date"
