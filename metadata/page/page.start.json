@@ -48,12 +48,12 @@
     "page.courts-tribunal-information-request",
     "page.opg",
     "page.laa",
+    "page.somewhere_else",
     "page.contact-details-branston",
     "page.contact-information",
     "page.own-data-for-court-case",
     "page.check-answers",
-    "page.confirmation-page",
-    "page.somewhere_else"
+    "page.confirmation-page"
   ],
   "url": "/"
 }
