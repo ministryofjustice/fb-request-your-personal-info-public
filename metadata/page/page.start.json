@@ -52,7 +52,8 @@
     "page.contact-information",
     "page.own-data-for-court-case",
     "page.check-answers",
-    "page.confirmation-page"
+    "page.confirmation-page",
+    "page.somewhere_else"
   ],
   "url": "/"
 }
