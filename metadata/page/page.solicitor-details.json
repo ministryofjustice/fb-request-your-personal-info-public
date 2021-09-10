@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.solicitor-details--text.auto_name__57",
       "_type": "text",
-      "label": "Name of firm",
+      "label": "Name of law practice",
       "name": "auto_name__57"
     },
     {

@@ -22,8 +22,17 @@
   "heading": "Which court or tribunal do you want information from? ",
   "sectionHeading": "HM Courts and Tribunal Service",
   "show": {
-    "identifier": "auto_name__42",
-    "operator": "defined"
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "auto_name__42",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__25",
+        "operator": "defined"
+      }
+    ]
   },
   "steps": [
     "page.case-date",

@@ -10,9 +10,6 @@
       "name": "auto_name__23"
     }
   ],
-  "show": {
-    "identifier": "auto_name__17",
-    "operator": "defined"
-  },
+  "show": false,
   "url": "somewhere_else"
 }

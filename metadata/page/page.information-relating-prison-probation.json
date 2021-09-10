@@ -19,7 +19,7 @@
           "value": "no"
         }
       ],
-      "legend": "Do you require information relating to time spent in prison or on probation? ",
+      "legend": "Do you want information about time spent serving a prison sentence or on probation?",
       "name": "auto_name__18"
     }
   ],

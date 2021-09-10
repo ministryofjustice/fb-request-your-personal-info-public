@@ -9,19 +9,6 @@
         {
           "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1",
           "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--textarea.auto_name__28",
-            "_type": "textarea",
-            "label": "Give a short explanation",
-            "name": "auto_name__28",
-            "validation": {
-              "required": {
-                "identifier": "auto_name__27",
-                "operator": "is",
-                "value": "auto_value__27yes"
-              }
-            }
-          },
           "label": "Yes",
           "value": "auto_value__27yes"
         },

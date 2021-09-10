@@ -3,65 +3,37 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page.prison-data--radios.auto_name__21",
-      "_type": "radios",
-      "hint": "We can respond faster if you are able to tell us specifically what you want",
+      "_id": "page.prison-data--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
       "items": [
         {
-          "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__1",
-          "_type": "radio",
-          "conditionalComponent": {
-            "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__1--textarea.auto_name__26",
-            "_type": "textarea",
-            "label": "Tell us what information you would like from HM Prison Service ",
-            "name": "auto_name__26"
-          },
-          "label": "Yes",
-          "value": "auto_value__1"
+          "_id": "page.prison-data--checkboxes--checkbox.auto_name__21",
+          "_type": "checkbox",
+          "label": "NOMIS records",
+          "name": "auto_name__21"
         },
         {
-          "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2",
-          "_type": "radio",
+          "_id": "page.prison-data--checkboxes--checkbox.auto_name__26",
+          "_type": "checkbox",
+          "label": "Security data",
+          "name": "auto_name__26"
+        },
+        {
+          "_id": "page.prison-data--checkboxes--checkbox.auto_name__41",
+          "_type": "checkbox",
           "conditionalComponent": {
-            "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2--checkboxes",
-            "_type": "checkboxes",
-            "items": [
-              {
-                "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2--checkboxes--checkbox.auto_name__60",
-                "_type": "checkbox",
-                "label": "NOMIS records",
-                "name": "auto_name__60",
-                "value": "nomis"
-              },
-              {
-                "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2--checkboxes--checkbox.auto_name__64",
-                "_type": "checkbox",
-                "label": "Security data ",
-                "name": "auto_name__64",
-                "value": "security"
-              },
-              {
-                "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2--checkboxes--checkbox.auto_name__65",
-                "_type": "checkbox",
-                "conditionalComponent": {
-                  "_id": "page.prison-data--radios.auto_name__21--radio.auto_value__2--checkboxes--checkbox.auto_name__65--textarea.auto_name__75",
-                  "_type": "textarea",
-                  "label": "Please specify what other information you would like ",
-                  "name": "auto_name__75"
-                },
-                "label": "Something else ",
-                "name": "auto_name__65",
-                "value": "something_else"
-              }
-            ],
-            "legend": "What information do you want from HM Prison Service? "
+            "_id": "page.prison-data--checkboxes--checkbox.auto_name__41--textarea.auto_name__53",
+            "_type": "textarea",
+            "hint": "We can respond faster if you are able to tell us specifically what you want",
+            "label": "Please specify what other information you would like",
+            "name": "auto_name__53"
           },
-          "label": "No",
-          "value": "auto_value__2"
+          "label": "Something else",
+          "name": "auto_name__41"
         }
       ],
-      "legend": "Do you know what information you would like from HM Prison Service? ",
-      "name": "auto_name__21"
+      "legend": "What Prison Service information do you want?"
     }
   ],
   "enableSteps": true,

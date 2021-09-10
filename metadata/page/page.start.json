@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "You can use this form to ask for personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* Legal Aid Agency \r\n* Office of the Public Guardian\r\n* HM Courts and Tribunals Service\r\n\r\nIf you're after personal information from elsewhere in the Ministry of Justice please apply ......\r\n\r\nTo ask for personal information from other areas of MoJ, visit <link>.\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a solicitor asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a solicitor, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
+  "body": "Use this form to ask for your, or someone else’s, personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* HM Courts and Tribunals Service (HMCTS)\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* The Ministry of Justice (MoJ)\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a legal representative asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
   "components": [
     {
       "$component": true,
@@ -24,7 +24,7 @@
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Other ways to ask for personal information ##\r\n\r\n[You can also send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
+      "html": "## Other ways to ask for personal information ##\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
   "heading": "Request personal information",
@@ -34,6 +34,7 @@
     "page.data-subject-name",
     "page.personal-information-hmpps",
     "page.information-relating-prison-probation",
+    "page.other-information",
     "page.application-where-would-you-like-information-from",
     "page.currently-in-prison",
     "page.subject-id",
@@ -52,6 +53,7 @@
     "page.contact-details-branston",
     "page.contact-information",
     "page.own-data-for-court-case",
+    "page.court-case-info",
     "page.check-answers",
     "page.confirmation-page"
   ],

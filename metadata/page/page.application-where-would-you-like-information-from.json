@@ -17,37 +17,52 @@
           "name": "auto_name__42"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
-          "label": "Legal Aid Agency",
+          "label": "Legal Aid Agency (LAA)",
           "name": "auto_name__11",
           "show": false
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
-          "label": "Office of the Public Guardian",
+          "label": "Office of the Public Guardian (OPG)",
           "name": "auto_name__12",
           "show": false
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17",
           "_type": "checkbox",
-          "label": "Somewhere else",
+          "conditionalComponent": {
+            "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17--textarea.auto_name__13",
+            "_type": "textarea",
+            "hint": "We can respond faster if you are able to tell us specifically what you want",
+            "label": "What information would you like from somewhere else in the Ministry of Justice?",
+            "name": "auto_name__13"
+          },
+          "label": "Somewhere else in the Ministry of Justice",
           "name": "auto_name__17"
-        },
-        {
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__13",
-          "_type": "checkbox",
-          "label": "Nowhere else",
-          "name": "auto_name__13"
         }
       ],
-      "legend": "Where else would you like information from? ",
+      "legend": "Where would you like information from? ",
       "validation": {
         "required": true
       }
     }
   ],
+  "show": {
+    "identifier": "output_email",
+    "operator": "is",
+    "value": "e[DISCLOSURE]"
+  },
   "url": "application-where-would-you-like-information-from"
 }
