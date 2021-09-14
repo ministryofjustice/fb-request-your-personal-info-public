@@ -24,7 +24,7 @@
           "_type": "checkbox",
           "label": "Legal Aid Agency (LAA)",
           "name": "auto_name__11",
-          "show": false
+          "show": true
         },
         {
           "$component": true,
@@ -34,7 +34,7 @@
           "_type": "checkbox",
           "label": "Office of the Public Guardian (OPG)",
           "name": "auto_name__12",
-          "show": false
+          "show": true
         },
         {
           "$component": true,
