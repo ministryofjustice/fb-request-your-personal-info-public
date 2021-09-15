@@ -26,6 +26,11 @@
         "identifier": "auto_name__18",
         "operator": "is",
         "value": "yes"
+      },
+      {
+        "identifier": "auto_name__8",
+        "negated": true,
+        "operator": "defined"
       }
     ]
   },

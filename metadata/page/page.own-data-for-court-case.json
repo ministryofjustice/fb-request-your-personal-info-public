@@ -9,6 +9,12 @@
         {
           "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--textarea.auto_name__56",
+            "_type": "textarea",
+            "label": "Please give any details you can, for example if you know when the trial or hearing might take place?",
+            "name": "auto_name__56"
+          },
           "label": "Yes",
           "value": "auto_value__27yes"
         },

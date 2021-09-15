@@ -12,7 +12,7 @@
           "conditionalComponent": {
             "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--checkboxes",
             "_type": "checkboxes",
-            "hint": "Select all that are relevant to you",
+            "hint": "Select all that apply",
             "items": [
               {
                 "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7--checkboxes--checkbox.auto_name__8",
@@ -27,7 +27,7 @@
                 "name": "auto_name__9"
               }
             ],
-            "legend": "Which area do you want information from?",
+            "legend": "Which service do you want information from?",
             "validation": {
               "required": true
             }

@@ -12,7 +12,7 @@
           "conditionalComponent": {
             "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__21",
             "_type": "email",
-            "label": "What is your email address?",
+            "label": "Your email address",
             "name": "email"
           },
           "label": "Email",

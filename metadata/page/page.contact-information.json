@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.contact-information--textarea.auto_name__76",
       "_type": "textarea",
-      "hint": "This is where we'll send our response to",
+      "hint": "This is where we'll send your information to",
       "label": "Your address",
       "name": "auto_name__76"
     },
@@ -20,7 +20,7 @@
       "$field": true,
       "_id": "page.contact-information--email.auto_name__17",
       "_type": "email",
-      "hint": "We will only use this to send you an acknowledgement of your request",
+      "hint": "We will send a summary of your responses to this address",
       "label": "Email address (optional)",
       "name": "email",
       "validation": {
