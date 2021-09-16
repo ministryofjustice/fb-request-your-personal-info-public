@@ -25,7 +25,7 @@
             "_id": "page.case-date--radios.auto_name__16--radio.auto_value__6--text.auto_name__46",
             "_type": "text",
             "hint": "We can respond faster if we know when the trial or hearing took place",
-            "label": "Year of trial or hearing (optional)",
+            "label": "Year of trial or hearing (Optional)",
             "name": "auto_name__46",
             "validation": {
               "required": false

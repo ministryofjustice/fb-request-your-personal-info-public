@@ -21,7 +21,7 @@
       "_id": "page.contact-information--email.auto_name__17",
       "_type": "email",
       "hint": "We will send a summary of your responses to this address",
-      "label": "Email address (optional)",
+      "label": "Email address (Optional)",
       "name": "email",
       "validation": {
         "required": false
