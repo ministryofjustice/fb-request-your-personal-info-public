@@ -20,7 +20,7 @@
       "$field": true,
       "_id": "page.contact-information--email.auto_name__17",
       "_type": "email",
-      "hint": "We will send a summary of your responses to this address",
+      "hint": "We will send a copy of your completed form",
       "label": "Email address (Optional)",
       "name": "email",
       "validation": {
