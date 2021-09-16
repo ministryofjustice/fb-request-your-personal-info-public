@@ -6,7 +6,7 @@
   "emailInputNameUser": "email",
   "emailSubjectTeam": "Response from Request personal information",
   "emailSubjectUser": "Request for personal information sent",
-  "emailTemplateUser": "You will receive an email in the next xx hours\r\n\r\nYour request will be checked in the next xx hours and you will then receive an email to confirm that you have supplied all the information needed or to ask you to provide more details.\r\n\r\nWhat happens next\r\n\r\nAfter you have provided all the necessary details, it takes up to 30 days to complete a request. Asking for an update during this time may mean it takes longer to get the information you want. \r\n\r\nReceiving personal information\r\n\r\nYour request is protected by the Data Protection Act which means the information is confidential. \r\n",
+  "emailTemplateUser": "We will confirm receiving your request by email, or by letter, in the next 5 working days.\r\n\r\nYour request will then be checked to confirm that you have supplied all the information needed or to ask you to provide more details. \r\n\r\nWhat happens next\r\n\r\nWhen we have all the necessary details, it takes up to 30 days to complete a request. Asking for an update during this time may mean it takes longer to get the information you want. \r\n\r\nReceiving personal information\r\n\r\nYour personal information will be sent to the email or postal address you have provided.\r\n\r\nYour request is protected by the Data Protection Act which means the information is confidential. \r\n\r\n",
   "name": "Request personal information",
   "pdfHeading": "Request for personal information",
   "phase": "beta",
