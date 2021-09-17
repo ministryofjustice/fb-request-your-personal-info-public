@@ -17,7 +17,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Answering your request ##\r\n\r\nIf we hold any information about you, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n"
+      "html": "## Answering your request ##\r\n\r\nIf we hold any information about you, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person, that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n"
     }
   ],
   "extraComponents": [

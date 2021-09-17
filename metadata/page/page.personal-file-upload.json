@@ -12,7 +12,7 @@
     {
       "_id": "page.personal-file-upload--upload.auto_name__83",
       "_type": "upload",
-      "hint": "This can be a copy of a bill in your name and dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
+      "hint": "This can be a copy of a bill in your name and must be dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
       "label": "Proof of address",
       "name": "auto_name__83"
     }

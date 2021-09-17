@@ -2,7 +2,7 @@
   "_id": "page.confirmation-page",
   "_type": "page.confirmation",
   "actionType": "custom-1",
-  "body": "## What happens next ##\r\n\r\nIf you have provided all of the required information, you should receive a response within 30 days. We will contact you if need more details to answer your request.\r\n",
+  "body": "## What happens next ##\r\n\r\nIf you have provided all of the required information, you should receive a response within 30 days. We will contact you if we need more details to answer your request.\r\n",
   "components": [
     {
       "$component": true,

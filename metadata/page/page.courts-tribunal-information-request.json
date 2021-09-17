@@ -20,7 +20,7 @@
   ],
   "enableSteps": true,
   "heading": "Which court or tribunal do you want information from? ",
-  "sectionHeading": "HM Courts and Tribunal Service",
+  "sectionHeading": "HM Courts and Tribunals Service",
   "show": {
     "conditionsType": "exactly",
     "exactly": [
