@@ -10,7 +10,7 @@
       "_id": "page.data-subject-name--text.auto_name__6",
       "_type": "text",
       "label": "Full name",
-      "name": "auto_name__6"
+      "name": "subject_full_name"
     },
     {
       "$component": true,
