@@ -11,5 +11,6 @@
   "pdfHeading": "Request for personal information",
   "phase": "beta",
   "phaseText": "This is a new service - your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it.",
-  "sessionDuration": 60
+  "sessionDuration": 60,
+  "serviceEmailAddress": "SAR.research@digital.justice.gov.uk"
 }
