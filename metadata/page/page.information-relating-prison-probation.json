@@ -9,7 +9,7 @@
         {
           "_id": "page.information-relating-prison-probation--radios.auto_name__18--radio.auto_value__7",
           "_type": "radio",
-          "label": "Yes, information about time spent in prison or on probation",
+          "label": "Yes, I want information about time spent in prison or on probation",
           "value": "yes"
         },
         {
