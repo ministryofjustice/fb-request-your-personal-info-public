@@ -12,20 +12,6 @@
       "hint": "This is where we'll send your information to",
       "label": "Your address",
       "name": "auto_name__76"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-information--email.auto_name__17",
-      "_type": "email",
-      "hint": "We will send a copy of your completed form",
-      "label": "Email address (Optional)",
-      "name": "email",
-      "validation": {
-        "required": false
-      }
     }
   ],
   "heading": "Your address",
