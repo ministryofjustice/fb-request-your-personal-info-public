@@ -11,7 +11,7 @@
     {
       "_id": "page.courts-tribunal-information-request--text.auto_name__50",
       "_type": "text",
-      "label": "Trial or hearing number (Optional)",
+      "label": "Trial or hearing number (optional)",
       "name": "auto_name__50",
       "validation": {
         "required": false
