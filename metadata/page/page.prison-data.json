@@ -26,7 +26,7 @@
             "_id": "page.prison-data--checkboxes--checkbox.auto_name__41--textarea.auto_name__53",
             "_type": "textarea",
             "hint": "We can respond faster if you are able to tell us specifically what you want",
-            "label": "Please specify what other information you would like",
+            "label": "Can you provide more detail?",
             "name": "auto_name__53"
           },
           "label": "Something else",

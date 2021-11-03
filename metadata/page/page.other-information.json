@@ -26,7 +26,7 @@
                   "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--checkboxes--checkbox.auto_name__37--textarea.auto_name__40",
                   "_type": "textarea",
                   "hint": "We can respond faster if you are able to tell us specifically what you want",
-                  "label": "What information would you like from somewhere else in the Ministry of Justice? ",
+                  "label": "Can you provide more detail? ",
                   "name": "auto_name__40"
                 },
                 "label": "Somewhere else in the Ministry of Justice",

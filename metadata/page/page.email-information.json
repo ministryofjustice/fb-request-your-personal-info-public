@@ -2,7 +2,6 @@
   "_id": "page.email-information",
   "_type": "page.form",
   "components": [
-
     {
       "$component": true,
       "$control": true,
@@ -10,15 +9,15 @@
       "$field": true,
       "_id": "page.email-information--email.auto_name__17",
       "_type": "email",
-      "hint": "We will send a copy of your completed form",
-      "label": "Email address",
+      "hint": "If you want a copy of this completed form for your records.",
+      "label": "Email address (optional)",
       "name": "email",
       "validation": {
         "required": false
       }
     }
   ],
-  "heading": "Your email address (optional)",
+  "heading": "Your email ",
   "show": {
     "identifier": "auto_name__54",
     "negated": true,

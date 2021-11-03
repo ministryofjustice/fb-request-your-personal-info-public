@@ -2,7 +2,7 @@
   "_id": "page.confirmation-page",
   "_type": "page.confirmation",
   "actionType": "custom-1",
-  "body": "## What happens next ##\r\n\r\nIf you have provided all of the required information, you should receive a response within 30 days. We will contact you if we need more details to answer your request.",
+  "body": "## What happens next ##\r\n\r\nWe will contact you if we need more details to answer your request.\r\n\r\nIf you have provided all of the information we need, you should receive a response within 30 days. ",
   "components": [
     {
       "$component": true,
@@ -13,14 +13,12 @@
       "html": "Asking for an update during this time may mean it takes longer to get the information you want."
     },
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.confirmation-page--content",
       "_type": "content",
-      "html": "## After 30 days ##\r\n\r\nIf you haven't heard from us after 30 days, you can contact:\r\n\r\nPlease provide your name and date you made the application."
-    },
-    {
-      "_id": "page.confirmation-page--content--2",
-      "_type": "content",
-      "html": "This is a new service and your [feedback](https://eu.surveymonkey.com/r/G5SWVCT) will help us to improve it."
+      "html": "### After 30 days ###\r\n\r\nIf you haven't heard from us after 30 days, you can contact: <data.access@hmps.gsi.gov.uk>\r\n\r\nTell us your name and the date you made the application."
     }
   ],
   "heading": "Request sent",

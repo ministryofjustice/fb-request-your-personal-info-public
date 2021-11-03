@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to ask for your, or someone else’s, personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* HM Courts and Tribunals Service (HMCTS)\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* The Ministry of Justice (MoJ)\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a legal representative asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
+  "body": "Use this form to ask for your, or someone else’s, personal information held by: \r\n\r\n* Prison Service\r\n* Probation Service\r\n* Courts and Tribunals Service (HMCTS)\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* The Ministry of Justice (MOJ)\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it will be to find the information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which prison you dealt with, and when\r\n\r\n### When requesting your own personal information ###\r\n\r\nWe cannot process your request without:\r\n\r\n* 1 form of photo ID, such as a passport or driving licence\r\n* 1 copy of a proof of address, such as a bank statement or utility bill from the last 3 months\r\n\r\n### Legal representatives requesting information for a client ### \r\n\r\nYou must upload a signed letter of consent dated from the last 6 months.\r\n\r\n### Requesting information on behalf of someone else ### \r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide:\r\n\r\n* photo ID and proof of address for that person\r\n* a signed letter of consent dated from the last 6 months\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "Asking for an update during this time may mean it takes longer to get the information you want. "
+      "html": "Asking for an update during this time may mean it takes longer to get the information you want."
     },
     {
       "$component": true,
@@ -17,7 +17,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Answering your request ##\r\n\r\nIf we hold any information about you, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person, that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n"
+      "html": "## Answering your request ##\r\n\r\nIf we hold any information you've asked for, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person, that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive."
     }
   ],
   "extraComponents": [

@@ -3,6 +3,10 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.personal-file-upload--upload.auto_name__82",
       "_type": "upload",
       "hint": "This can be a copy of your driving licence or passport. Maximum size: 7MB per file",
@@ -10,6 +14,10 @@
       "name": "auto_name__82"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.personal-file-upload--upload.auto_name__83",
       "_type": "upload",
       "hint": "This can be a copy of a bill in your name and must be dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
@@ -17,7 +25,7 @@
       "name": "auto_name__83"
     }
   ],
-  "heading": "Upload your ID documents ",
+  "heading": "Upload your ID ",
   "steps": [
     "page.request-personal-data_personal-file-upload-check"
   ],

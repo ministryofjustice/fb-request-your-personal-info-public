@@ -27,7 +27,7 @@
           "conditionalComponent": {
             "_id": "page.probation--checkboxes--checkbox.auto_name__43--textarea.auto_name__44",
             "_type": "textarea",
-            "label": "Please specify what other information you would like ",
+            "label": "Can you provide more detail? ",
             "name": "auto_name__44"
           },
           "label": "Something else",

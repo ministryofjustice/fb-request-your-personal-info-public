@@ -6,7 +6,7 @@
       "_id": "page.prison-non-offender--textarea.auto_name__5",
       "_type": "textarea",
       "hint": "We might be able to respond faster if you can tell us what information you want",
-      "label": "What information do you want from HM Prison Service? ",
+      "label": "What information do you want from the Prison Service? ",
       "name": "auto_name__5"
     }
   ],
