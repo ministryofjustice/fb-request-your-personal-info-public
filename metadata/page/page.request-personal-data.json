@@ -19,7 +19,7 @@
       "$field": true,
       "_id": "page.request-personal-data--text.auto_name__78",
       "_type": "text",
-      "label": "Any nicknames or aliases that this information may be stored under (Optional)",
+      "label": "Any nicknames or aliases that this information may be stored under (optional)",
       "name": "auto_name__78",
       "validation": {
         "required": false

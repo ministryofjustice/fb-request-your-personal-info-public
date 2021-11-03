@@ -26,6 +26,7 @@
     }
   ],
   "heading": "Upload your ID ",
+  "lede": "You must upload both proof of ID and address.",
   "steps": [
     "page.request-personal-data_personal-file-upload-check"
   ],
