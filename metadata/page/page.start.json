@@ -6,7 +6,7 @@
     {
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "### Information from the Courts and Tribunals Service (HMCTS) ###\r\nThis form cannot be used to get information from the Courts and Tribunals Service (HMCTS) . If you want information from HMCTS you need to contact the court or tribunal you dealt with directly."
+      "html": "### Information from the Courts and Tribunals Service (HMCTS) ###\r\nThis form cannot be used to get information from HMCTS. You should contact the court or tribunal you think is holding the information."
     },
     {
       "$component": true,
