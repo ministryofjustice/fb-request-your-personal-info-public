@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.email-information--email.auto_name__17",
       "_type": "email",
-      "hint": "If you want a copy of this completed form for your records.",
+      "hint": "We'll only use this to contact you if we need more information and for sending send a copy of this completed form for your records.",
       "label": "Email address (optional)",
       "name": "email",
       "validation": {

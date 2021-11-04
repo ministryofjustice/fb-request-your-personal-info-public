@@ -5,17 +5,8 @@
     {
       "_id": "page.application-where-would-you-like-information-from--checkboxes",
       "_type": "checkboxes",
-      "hint": "Select all that apply",
+      "hint": "For information from the Courts and Tribunals Service (HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
       "items": [
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__42",
-          "_type": "checkbox",
-          "label": "HM Courts and Tribunals Service (HMCTS)",
-          "name": "auto_name__42"
-        },
         {
           "$component": true,
           "$definition": true,
@@ -43,6 +34,10 @@
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17",
           "_type": "checkbox",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17--textarea.auto_name__13",
             "_type": "textarea",
             "hint": "We can respond faster if you are able to tell us specifically what you want.",
