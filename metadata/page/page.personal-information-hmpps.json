@@ -42,7 +42,7 @@
           "value": "e[DISCLOSURE]"
         }
       ],
-      "legend": "Do you want personal information from HM Prison and Probation Service (HMPPS)?  ",
+      "legend": "Do you want personal information held by the Prison and Probation Service (HMPPS)?  ",
       "name": "output_email"
     }
   ],

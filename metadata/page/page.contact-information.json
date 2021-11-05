@@ -9,7 +9,7 @@
       "$field": true,
       "_id": "page.contact-information--textarea.auto_name__76",
       "_type": "textarea",
-      "hint": "This is where we'll send your information to",
+      "hint": "You will receive paper copies of this information. If your request reveals details about another person, that information will not be shared.",
       "label": "Your address",
       "name": "auto_name__76"
     }

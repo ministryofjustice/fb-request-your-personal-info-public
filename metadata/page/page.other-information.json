@@ -7,42 +7,26 @@
       "_type": "radios",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7",
           "_type": "radio",
           "conditionalComponent": {
-            "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--checkboxes",
-            "_type": "checkboxes",
-            "items": [
-              {
-                "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--checkboxes--checkbox.auto_name__25",
-                "_type": "checkbox",
-                "label": "HM Courts and Tribunals Service (HMCTS) ",
-                "name": "auto_name__25"
-              },
-              {
-                "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--checkboxes--checkbox.auto_name__37",
-                "_type": "checkbox",
-                "conditionalComponent": {
-                  "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--checkboxes--checkbox.auto_name__37--textarea.auto_name__40",
-                  "_type": "textarea",
-                  "hint": "We can respond faster if you are able to tell us specifically what you want",
-                  "label": "Can you provide more detail? ",
-                  "name": "auto_name__40"
-                },
-                "label": "Somewhere else in the Ministry of Justice",
-                "name": "auto_name__37"
-              }
-            ],
-            "legend": "Where would you like information from?"
+            "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--text.auto_name__6",
+            "_type": "text",
+            "hint": "You cannot use this form to request information from the Courts and Tribunals Service (HMCTS).",
+            "label": "What part of the Ministry of Justice do you think holds this information?",
+            "name": "auto_name__6"
           },
           "label": "Yes",
           "value": "auto_value__7"
         },
         {
-          "_id": "page.other-information--radios.auto_name__24--radio.auto_value__8",
+          "_id": "page.other-information--radios.auto_name__24--radio.auto_value__1",
           "_type": "radio",
           "label": "No",
-          "value": "auto_value__8"
+          "value": "auto_value__1"
         }
       ],
       "legend": "Do you also want information from another part of the Ministry of Justice?",

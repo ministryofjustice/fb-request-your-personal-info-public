@@ -18,7 +18,7 @@
       "$definition": true,
       "_id": "page.confirmation-page--content",
       "_type": "content",
-      "html": "### After 30 days ###\r\n\r\nIf you haven't heard from us after 30 days, you can contact: \r\n\r\n#### For requests that included any information from HMPPS: ####\r\n\r\n<data.access1@justice.gov.uk>\r\n\r\n#### For requests that did not want any information from HMPPS: ####\r\n\r\n<data.access@justice.gov.uk>\r\n\r\nTell us your name and the date you made the application."
+      "html": "### After 30 days ###\r\n\r\nIf you haven't heard from us after 30 days, you can contact: \r\n\r\n#### For requests that included any information from HMPPS: ####\r\n\r\n<data.access1@justice.gov.uk>\r\n\r\n#### For requests that did not want any information from HMPPS: ####\r\n\r\n<data.access@justice.gov.uk>\r\n\r\nTell us your name and the date you made the application.\r\n\r\nYou should save this page or make a copy for your records."
     }
   ],
   "heading": "Request sent",

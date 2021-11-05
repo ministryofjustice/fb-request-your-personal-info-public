@@ -3,6 +3,9 @@
   "_type": "page.singlequestion",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.application-where-would-you-like-information-from--checkboxes",
       "_type": "checkboxes",
       "hint": "For information from the Courts and Tribunals Service (HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
