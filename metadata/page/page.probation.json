@@ -8,6 +8,9 @@
       "hint": "Select all that apply",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.probation--checkboxes--checkbox.auto_name__38",
           "_type": "checkbox",
           "hint": "These are your electronic case notes held on computer",
@@ -15,16 +18,16 @@
           "name": "auto_name__38"
         },
         {
-          "_id": "page.probation--checkboxes--checkbox.auto_name__39",
-          "_type": "checkbox",
-          "hint": "Information about risk assessment of offenders",
-          "label": "Multi Agency Public Protection Arrangements (MAPPA) executive summaries ",
-          "name": "auto_name__39"
-        },
-        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.probation--checkboxes--checkbox.auto_name__43",
           "_type": "checkbox",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.probation--checkboxes--checkbox.auto_name__43--textarea.auto_name__44",
             "_type": "textarea",
             "label": "Can you provide more detail? ",
@@ -41,7 +44,7 @@
     }
   ],
   "enableSteps": true,
-  "sectionHeading": "Probation Service",
+  "sectionHeading": "HM Probation Service",
   "show": {
     "all": [
       {

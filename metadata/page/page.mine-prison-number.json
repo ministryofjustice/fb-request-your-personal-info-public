@@ -6,12 +6,12 @@
       "_id": "page.mine-prison-number--text.auto_name__32",
       "_type": "text",
       "hint": "Also sometimes called your NOMIS number. For example, A1234AA",
-      "label": "What was your prison number?",
+      "label": "What was your prison number? ",
       "name": "auto_name__32"
     }
   ],
   "enableSteps": true,
-  "sectionHeading": "Prison Service",
+  "sectionHeading": "HM Prison Service",
   "show": {
     "all": [
       {

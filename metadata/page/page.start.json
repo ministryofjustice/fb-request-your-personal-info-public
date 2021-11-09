@@ -1,12 +1,12 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to ask for your, or someone else’s, personal information held by: \r\n\r\n* Prison Service\r\n* Probation Service\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* Ministry of Justice (MOJ)",
+  "body": "Use this form to ask for your, or someone else’s, personal information held by the: \r\n\r\n* Prison Service\r\n* Probation Service\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* Ministry of Justice (MOJ)",
   "components": [
     {
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "### Information from the Courts and Tribunals Service (HMCTS) ###\r\nThis form cannot be used to get information from HMCTS. You should contact the court or tribunal you think is holding the information.\r\n\r\nYou can use the [Find a court or tribunal service](https://www.gov.uk/find-court-tribunal) to find the contact details."
+      "html": "### Information from the Courts and Tribunals Service (HMCTS) ###\r\nThis form cannot be used to get information from HMCTS. You should contact the court or tribunal you think is holding the information.\r\n\r\nYou can use the [Find a court or tribunal](https://www.gov.uk/find-court-tribunal) service to find the contact details."
     },
     {
       "$component": true,

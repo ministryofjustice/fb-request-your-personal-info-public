@@ -6,11 +6,11 @@
       "_id": "page.probation-non-offender--textarea.auto_name__7",
       "_type": "textarea",
       "hint": "We might be able to respond faster if you can tell us what information you want",
-      "label": "What information do you want from the Probation Service? ",
+      "label": "What information do you want from the probation service? ",
       "name": "auto_name__7"
     }
   ],
-  "sectionHeading": "Probation Service",
+  "sectionHeading": "HM Probation Service",
   "show": {
     "all": [
       {
