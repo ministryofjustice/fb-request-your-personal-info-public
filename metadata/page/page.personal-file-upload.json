@@ -1,6 +1,7 @@
 {
   "_id": "page.personal-file-upload",
   "_type": "page.form",
+  "body": "This can be a photograph, scan or photocopy of the original document.",
   "components": [
     {
       "$component": true,
