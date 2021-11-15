@@ -5,6 +5,8 @@
     {
       "_id": "page.opg-date--date.auto_name__66",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 12 2011",
       "legend": "From",
       "name": "auto_name__66",
       "validation": {
@@ -14,6 +16,8 @@
     {
       "_id": "page.opg-date--date.auto_name__68",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 6 2014",
       "legend": "To",
       "name": "auto_name__68",
       "validation": {

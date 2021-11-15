@@ -1,6 +1,7 @@
 {
   "_id": "page.subject-id",
   "_type": "page.form",
+  "body": "This can be a photograph, photocopy or scan of the original document.",
   "components": [
     {
       "$component": true,

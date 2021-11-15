@@ -16,6 +16,7 @@
           "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
+          "hint": "Including information from legal aid applications.",
           "label": "Legal Aid Agency (LAA)",
           "name": "auto_name__11",
           "show": true
@@ -26,6 +27,7 @@
           "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
+          "hint": "Including information about lasting power of attorney.",
           "label": "Office of the Public Guardian (OPG)",
           "name": "auto_name__12",
           "show": true
@@ -51,7 +53,7 @@
           "name": "auto_name__17"
         }
       ],
-      "legend": "Where would you like information from? ",
+      "legend": "Where do you want information from? ",
       "validation": {
         "required": true
       }

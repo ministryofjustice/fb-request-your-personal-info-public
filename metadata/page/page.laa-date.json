@@ -5,6 +5,8 @@
     {
       "_id": "page.laa-date--date.auto_name__70",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example 11 2007",
       "legend": "From",
       "name": "auto_name__70",
       "validation": {
@@ -14,6 +16,8 @@
     {
       "_id": "page.laa-date--date.auto_name__71",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 7 2010",
       "legend": "To",
       "name": "auto_name__71",
       "validation": {

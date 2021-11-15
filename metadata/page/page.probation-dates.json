@@ -1,11 +1,13 @@
 {
   "_id": "page.probation-dates",
   "_type": "page.form",
-  "body": "Leave this page blank if you would like information since the start of the sentence, or can't remember",
+  "body": "Leave this page blank if you would like information since the start of a sentence, or can't remember",
   "components": [
     {
       "_id": "page.probation-dates--date.auto_name__47",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 12 2010",
       "legend": "From",
       "name": "auto_name__47",
       "validation": {
@@ -15,6 +17,7 @@
     {
       "_id": "page.probation-dates--date.auto_name__48",
       "_type": "date",
+      "dateType": "month-year",
       "legend": "To",
       "name": "auto_name__48",
       "validation": {

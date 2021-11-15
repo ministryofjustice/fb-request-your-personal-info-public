@@ -13,7 +13,7 @@
           "$option": true,
           "_id": "page.probation--checkboxes--checkbox.auto_name__38",
           "_type": "checkbox",
-          "hint": "These are your electronic case notes held on computer",
+          "hint": "Your electronic case notes held on computer",
           "label": "nDelius file",
           "name": "auto_name__38"
         },
@@ -37,7 +37,7 @@
           "name": "auto_name__43"
         }
       ],
-      "legend": "What information would you like from the Probation Service?",
+      "legend": "What information do you want from the Probation Service?",
       "validation": {
         "required": true
       }

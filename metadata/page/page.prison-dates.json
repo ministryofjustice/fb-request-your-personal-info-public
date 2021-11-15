@@ -6,6 +6,8 @@
     {
       "_id": "page.prison-dates--date.auto_name__80",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 11 2010",
       "legend": "From",
       "name": "auto_name__80",
       "validation": {
@@ -15,6 +17,8 @@
     {
       "_id": "page.prison-dates--date.auto_name__84",
       "_type": "date",
+      "dateType": "month-year",
+      "hint": "For example, 5 2014",
       "legend": "To",
       "name": "auto_name__84",
       "validation": {
