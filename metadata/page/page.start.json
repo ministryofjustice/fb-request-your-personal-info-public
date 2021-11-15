@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to ask for your, or someone else’s, personal information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security or NOMIS records about time spent in prison\r\n* Probation Service - for NDelius records about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
+  "body": "Use this form to ask for your, or someone else’s, personal information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security or NOMIS records about time spent in prison\r\n* Probation Service - for NDelius electronic case notes about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
       "_id": "page.start--inset",
