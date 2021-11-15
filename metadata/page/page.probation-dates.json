@@ -1,7 +1,7 @@
 {
   "_id": "page.probation-dates",
   "_type": "page.form",
-  "body": "Leave this page blank if you would like information since the start of a sentence, or can't remember",
+  "body": "Providing dates here will also make sure we do not send you more information than you need.\r\n\r\nLeave this page blank if you would like information since the start of working with probation, or can't remember.",
   "components": [
     {
       "_id": "page.probation-dates--date.auto_name__47",
