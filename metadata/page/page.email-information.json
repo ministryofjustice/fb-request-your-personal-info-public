@@ -1,7 +1,7 @@
 {
   "_id": "page.email-information",
   "_type": "page.form",
-  "body": "We'll only use this email address to:\r\n* contact you if we need more information  \r\n* send you a copy of this completed form  for your records\r\n* give you instructions how to contact us after you've submitted your request",
+  "body": "We will only use this email address to:\r\n* contact you if we need more information  \r\n* send you a copy of this completed form  for your records\r\n* give you instructions how to contact us after you've submitted your request",
   "components": [
     {
       "$component": true,

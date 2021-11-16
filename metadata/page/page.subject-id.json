@@ -21,7 +21,7 @@
       "$field": true,
       "_id": "page.subject-id--upload.auto_name__31",
       "_type": "upload",
-      "hint": "For example an electricity or council tax bill in their name and it must be dated within the last 3 months. Maximum file size: 7MB",
+      "hint": "For example an electricity or council tax bill in their name and it must be dated within the last 6 months. Maximum file size: 7MB",
       "label": "Proof of address",
       "name": "auto_name__31"
     }
