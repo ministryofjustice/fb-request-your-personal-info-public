@@ -16,10 +16,19 @@
   ],
   "heading": "Where we'll send the information",
   "show": {
-    "identifier": "auto_name__54",
-    "negated": true,
-    "operator": "is",
-    "value": "auto_value__3"
+    "any": [
+      {
+        "identifier": "auto_name__54",
+        "negated": true,
+        "operator": "is",
+        "value": "auto_value__3"
+      },
+      {
+        "identifier": "auto_name__23",
+        "operator": "defined"
+      }
+    ],
+    "conditionsType": "any"
   },
   "url": "contact-information"
 }

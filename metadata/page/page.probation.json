@@ -48,13 +48,18 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__9",
-        "operator": "defined"
+        "identifier": "auto_name__1",
+        "operator": "is",
+        "value": "mine"
       },
       {
-        "identifier": "auto_name__18",
+        "identifier": "auto_name__24",
         "operator": "is",
-        "value": "yes"
+        "value": "auto_value__7"
+      },
+      {
+        "identifier": "auto_name__9",
+        "operator": "defined"
       }
     ]
   },

@@ -12,8 +12,27 @@
   "enableSteps": true,
   "sectionHeading": "Legal Aid Agency",
   "show": {
-    "identifier": "auto_name__11",
-    "operator": "defined"
+    "any": [
+      {
+        "all": [
+          {
+            "identifier": "output_email",
+            "operator": "is",
+            "value": "e[DISCLOSURE]"
+          },
+          {
+            "identifier": "auto_name__11",
+            "operator": "defined"
+          }
+        ]
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "includes",
+        "value": "Legal Aid Agency, LAA"
+      }
+    ],
+    "conditionsType": "any"
   },
   "steps": [
     "page.laa-date"

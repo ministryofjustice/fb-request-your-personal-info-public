@@ -16,8 +16,34 @@
   "enableSteps": true,
   "sectionHeading": "Office of the Public Guardian",
   "show": {
-    "identifier": "auto_name__12",
-    "operator": "defined"
+    "any": [
+      {
+        "all": [
+          {
+            "0": {
+              "any": [
+                {},
+                {}
+              ],
+              "conditionsType": "any"
+            },
+            "identifier": "output_email",
+            "operator": "is",
+            "value": "e[DISCLOSURE]"
+          },
+          {
+            "identifier": "auto_name__12",
+            "operator": "defined"
+          }
+        ]
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "includes",
+        "value": "Office of Public Guardian, OPG"
+      }
+    ],
+    "conditionsType": "any"
   },
   "steps": [
     "page.opg-date"

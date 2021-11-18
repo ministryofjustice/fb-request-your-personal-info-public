@@ -20,13 +20,13 @@
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__8",
-        "operator": "defined"
+        "identifier": "output_email",
+        "operator": "is",
+        "value": "e[BRANSTON]"
       },
       {
-        "identifier": "auto_name__18",
-        "operator": "is",
-        "value": "yes"
+        "identifier": "auto_name__8",
+        "operator": "defined"
       }
     ]
   },

@@ -45,9 +45,9 @@
         "operator": "defined"
       },
       {
-        "identifier": "auto_name__18",
+        "identifier": "auto_name__1",
         "operator": "is",
-        "value": "yes"
+        "value": "mine"
       }
     ]
   },

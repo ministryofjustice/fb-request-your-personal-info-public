@@ -38,9 +38,8 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__18",
-        "operator": "is",
-        "value": "yes"
+        "identifier": "auto_name__8",
+        "operator": "defined"
       },
       {
         "identifier": "auto_name__1",

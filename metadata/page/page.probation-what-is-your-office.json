@@ -15,18 +15,18 @@
   "show": {
     "all": [
       {
-        "identifier": "auto_name__9",
-        "operator": "defined"
-      },
-      {
         "identifier": "auto_name__1",
         "operator": "is",
         "value": "mine"
       },
       {
-        "identifier": "auto_name__18",
+        "identifier": "output_email",
         "operator": "is",
-        "value": "yes"
+        "value": "e[BRANSTON]"
+      },
+      {
+        "identifier": "auto_name__9",
+        "operator": "defined"
       }
     ]
   },
