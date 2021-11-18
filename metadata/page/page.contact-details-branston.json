@@ -25,45 +25,39 @@
           "value": "auto_value__4"
         }
       ],
-      "legend": "How do you want to receive your personal information?",
+      "legend": "How do you want to receive the information?",
       "name": "auto_name__54"
     }
   ],
   "enableSteps": true,
   "show": {
-    "any": [
+    "all": [
       {
-        "0": {
-          "identifier": "output_email",
-          "operator": "is",
-          "value": "e[BRANSTON]"
-        },
-        "identifier": "output_email",
-        "operator": "is",
-        "value": "e[BRANSTON]"
-      },
-      {
-        "identifier": "auto_name__8",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__9",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__21",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__26",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__38",
-        "operator": "defined"
+        "any": [
+          {
+            "identifier": "auto_name__8",
+            "operator": "defined"
+          },
+          {
+            "identifier": "auto_name__9",
+            "operator": "defined"
+          },
+          {
+            "identifier": "auto_name__21",
+            "operator": "defined"
+          },
+          {
+            "identifier": "auto_name__26",
+            "operator": "defined"
+          },
+          {
+            "identifier": "auto_name__38",
+            "operator": "defined"
+          }
+        ],
+        "conditionsType": "any"
       }
-    ],
-    "conditionsType": "any"
+    ]
   },
   "steps": [],
   "url": "contact-preference"

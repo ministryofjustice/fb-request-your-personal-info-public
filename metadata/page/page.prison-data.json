@@ -39,17 +39,12 @@
   "enableSteps": true,
   "sectionHeading": "HM Prison Service  ",
   "show": {
-    "all": [
-      {
-        "identifier": "auto_name__8",
-        "operator": "defined"
-      },
-      {
-        "identifier": "auto_name__1",
-        "operator": "is",
-        "value": "mine"
-      }
-    ]
+    "0": {
+      "identifier": "auto_name__8",
+      "operator": "defined"
+    },
+    "identifier": "auto_name__8",
+    "operator": "defined"
   },
   "steps": [
     "page.prison-dates"

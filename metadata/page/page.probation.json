@@ -5,7 +5,7 @@
     {
       "_id": "page.probation--checkboxes",
       "_type": "checkboxes",
-      "hint": "Select all that apply",
+      "hint": "Select all that apply:",
       "items": [
         {
           "$component": true,
@@ -13,7 +13,7 @@
           "$option": true,
           "_id": "page.probation--checkboxes--checkbox.auto_name__38",
           "_type": "checkbox",
-          "hint": "Your electronic case notes held on computer",
+          "hint": "Electronic case notes held on computer",
           "label": "nDelius file",
           "name": "auto_name__38"
         },
@@ -46,22 +46,13 @@
   "enableSteps": true,
   "sectionHeading": "HM Probation Service",
   "show": {
-    "all": [
-      {
-        "identifier": "auto_name__1",
-        "operator": "is",
-        "value": "mine"
-      },
-      {
-        "identifier": "auto_name__24",
-        "operator": "is",
-        "value": "auto_value__7"
-      },
-      {
-        "identifier": "auto_name__9",
-        "operator": "defined"
-      }
-    ]
+    "0": {
+      "identifier": "auto_name__24",
+      "operator": "is",
+      "value": "auto_value__7"
+    },
+    "identifier": "auto_name__9",
+    "operator": "defined"
   },
   "steps": [
     "page.probation-dates"
