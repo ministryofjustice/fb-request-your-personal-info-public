@@ -33,29 +33,24 @@
   "show": {
     "all": [
       {
-        "any": [
-          {
-            "identifier": "auto_name__8",
-            "operator": "defined"
-          },
-          {
-            "identifier": "auto_name__9",
-            "operator": "defined"
-          },
-          {
-            "identifier": "auto_name__21",
-            "operator": "defined"
-          },
-          {
-            "identifier": "auto_name__26",
-            "operator": "defined"
-          },
-          {
-            "identifier": "auto_name__38",
-            "operator": "defined"
-          }
-        ],
-        "conditionsType": "any"
+        "identifier": "auto_name__41",
+        "negated": true,
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__43",
+        "negated": true,
+        "operator": "defined"
+      },
+      {
+        "identifier": "output_email",
+        "operator": "is",
+        "value": "e[BRANSTON]"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "is",
+        "value": "auto_value__1"
       }
     ]
   },
