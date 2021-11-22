@@ -35,7 +35,7 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Other ways to ask for personal information ##\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
+      "html": "### Other ways to ask for personal information ###\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
   "heading": "Request personal information from the Ministry of Justice",
