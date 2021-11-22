@@ -4,36 +4,41 @@
   "body": "Use this form to ask for your, or someone else’s, personal information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "### Do not use this form to request information from the Courts and Tribunals Service (HMCTS) ###\r\nThis form cannot be used to get information from HMCTS. \r\n\r\nFor this information, contact the court or tribunal you think is holding the information.\r\n\r\nUse the [Find a court or tribunal](https://www.gov.uk/find-court-tribunal) service to find the contact details."
+      "html": "## Do not use this form to request information from the Courts and Tribunals Service (HMCTS) ##\r\n\r\nFor information held by HMCTS, contact the court or tribunal you think holds the information.\r\n\r\nUse the [Find a court or tribunal](https://www.gov.uk/find-court-tribunal) service to find the contact details."
     },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific you can be, it will help us find the information you want.\r\n\r\nYou will need to complete this form in one go. You cannot save and return to complete the form."
+    }
+  ],
+  "extraComponents": [
     {
       "$component": true,
       "$content": true,
       "$definition": true,
       "_id": "page.start--content--3",
       "_type": "content",
-      "html": "## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it will be to find the information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which prison you dealt with, and when.\r\n\r\nYou will need to complete this form in one go. You cannot save and return to complete the form.\r\n\r\n### When requesting your own personal information ###\r\n\r\nWe cannot process your request without:\r\n\r\n* 1 form of photo ID, such as a passport or driving licence\r\n* 1 copy of a proof of address, such as a bank statement or utility bill from the last 6 months\r\n\r\n### Legal representatives requesting information for a client ### \r\n\r\nYou must upload a signed letter of consent dated from the last 6 months.\r\n\r\n### Requesting information on behalf of someone else ### \r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide:\r\n\r\n* photo ID and proof of address for that person\r\n* a signed letter of consent dated from the last 6 months\r\n\r\n## After making your request ##\r\n\r\nYou should receive copies of any data we can share within 30 days of us having enough information to start processing the request. \r\n\r\nWe will contact you if we need more details."
+      "html": "## Before you start ##\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which prison you dealt with, and when.\r\n\r\n### When requesting your own personal information ###\r\n\r\nWe cannot process your request without:\r\n\r\n* 1 form of photo ID, such as a passport or driving licence\r\n* 1 copy of a proof of address, such as a bank statement or utility bill from the last 6 months\r\n\r\n### Legal representatives requesting information for a client ### \r\n\r\nYou must upload a signed letter of consent dated from the last 6 months.\r\n\r\n### Requesting information on behalf of someone else ### \r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide:\r\n\r\n* photo ID and proof of address for that person\r\n* a signed letter of consent dated from the last 6 months"
     },
     {
       "$component": true,
       "$content": true,
       "$definition": true,
-      "_id": "page.start--warning",
-      "_type": "warning",
-      "html": "Asking for updates during this 30 day period may mean it takes longer to get the information you want."
-    }
-  ],
-  "extraComponents": [
-    {
       "_id": "page.start--content",
       "_type": "content",
       "html": "## Other ways to ask for personal information ##\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
-  "heading": "Request personal information",
-  "lede": "Asking for personal information held by the Ministry of Justice under the Data Protection Act 2018.",
+  "heading": "Request personal information from the Ministry of Justice",
   "steps": [
     "page.requesting-own-data",
     "page.request-personal-data",

@@ -53,16 +53,26 @@
           "name": "auto_name__17"
         }
       ],
-      "legend": "Where do you want information from? ",
+      "legend": "Where else do you want information from? ",
       "validation": {
         "required": true
       }
     }
   ],
   "show": {
-    "identifier": "output_email",
-    "operator": "is",
-    "value": "e[DISCLOSURE]"
+    "any": [
+      {
+        "identifier": "output_email",
+        "operator": "is",
+        "value": "e[DISCLOSURE]"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "is",
+        "value": "auto_value__7"
+      }
+    ],
+    "conditionsType": "any"
   },
   "url": "application-where-would-you-like-information-from"
 }
