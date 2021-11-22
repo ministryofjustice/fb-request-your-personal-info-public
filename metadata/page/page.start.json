@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to ask for your, or someone else’s, personal information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
+  "body": "Use this service to request personal information for yourself or someone else who gives you permission to act on their behalf.\r\n\r\nYou can ask for personal information, sometimes called a Subject Access Request, held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
       "$component": true,
@@ -17,7 +17,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can be, it will help us find the information you want.\r\n\r\nYou will need to complete this form in one go. You cannot save and return to complete the form."
+      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nYou will need to complete this form in one go. You cannot save and return."
     }
   ],
   "extraComponents": [
@@ -27,7 +27,7 @@
       "$definition": true,
       "_id": "page.start--content--3",
       "_type": "content",
-      "html": "## Before you start ##\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which prison you dealt with, and when\r\n\r\n### When requesting your own personal information ###\r\n\r\nWe cannot process your request without:\r\n\r\n* 1 form of photo ID, such as a passport or driving licence\r\n* 1 copy of a proof of address, such as a bank statement or utility bill from the last 6 months\r\n\r\n### Legal representatives requesting information for a client ### \r\n\r\nYou must upload a signed letter of consent dated from the last 6 months.\r\n\r\n### Requesting information on behalf of someone else ### \r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide:\r\n\r\n* photo ID and proof of address for that person\r\n* a signed letter of consent dated from the last 6 months"
+      "html": "## Before you start ##\r\n\r\nYou will need to provide:\r\n\r\n* photo ID and proof of address, dated in the last 6 months, for you and anyone else you're requesting information for (legal representatives do not need to provide this)\r\n* a signed letter of consent, dated in the last 6 months, if you're requesting information on behalf of someone else"
     },
     {
       "$component": true,
