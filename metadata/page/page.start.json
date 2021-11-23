@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to request personal information for yourself or someone else who gives you permission to act on their behalf.\r\n\r\nYou can ask for personal information, sometimes called a Subject Access Request, held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
+  "body": "Use this service to request personal information for yourself or someone else who has given you permission to act on their behalf.\r\n\r\nAsking for copies of personal information is a right under the Data Protection Act 2018, which calls these requests Subject Access Requests (SARs).\r\n\r\nThis form allows you request information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
       "$component": true,
@@ -17,7 +17,7 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nYou will need to complete this form in one go. You cannot save and return."
+      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nOnce we have all the information we need to start processing your request, you should expect the results back within 30 days.\r\n\r\nYou will need to complete this form in one go. You cannot save and return."
     }
   ],
   "extraComponents": [
@@ -35,7 +35,7 @@
       "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "### Other ways to ask for personal information ###\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
+      "html": "### Other ways to ask for personal information from the Ministry of Justice ###\r\n\r\nUnder the Data Protection Act 2018, you can also [make a SAR by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
   "heading": "Request personal information from the Ministry of Justice",
