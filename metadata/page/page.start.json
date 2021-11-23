@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to request personal information for yourself or someone else who has given you permission to act on their behalf.\r\n\r\nAsking for copies of personal information is your right under the Data Protection Act 2018, which calls these requests Subject Access Requests (SARs).\r\n\r\nThis form allows you request information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
+  "body": "Use this service to request personal information for yourself or someone else who has given you permission to act on their behalf.\r\n\r\nYou have the right to access your personal information, known as a subject access request (SAR), under the Data Protection Act 2018.\r\n\r\nThis form allows you request information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "## Do not use this form to request information from the Courts and Tribunals Service (HMCTS) ##\r\n\r\nFor information held by HMCTS, contact the court or tribunal you think holds the information.\r\n\r\nUse the [Find a court or tribunal](https://www.gov.uk/find-court-tribunal) service to find the contact details."
+      "html": "## Do not use this form to request information from the Courts and Tribunals Service (HMCTS) ##\r\n\r\nFor information held by HMCTS, contact the court or tribunal you think holds the information.\r\n\r\nUse the [Find a court or tribunal service](https://www.gov.uk/find-court-tribunal) to find the contact details."
     },
     {
       "$component": true,
