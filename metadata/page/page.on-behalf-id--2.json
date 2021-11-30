@@ -24,12 +24,6 @@
       "hint": "For example an electricity or council tax bill in their name and it must be dated within the last 6 months. Maximum file size: 7MB",
       "label": "Proof of address",
       "name": "auto_name__22"
-    },
-    {
-      "_id": "page.on-behalf-id--2--details",
-      "_type": "details",
-      "html": "If you are on probation and don't have any ID, you can upload a scan or photograph of a signed letter from your probation officer on Probation Service headed paper.",
-      "summary": "If you don't have any ID"
     }
   ],
   "heading": "Upload your ID ",

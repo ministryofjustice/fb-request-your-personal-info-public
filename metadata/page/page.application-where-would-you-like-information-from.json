@@ -56,7 +56,7 @@
               }
             },
             "hint": "We can respond faster if you are able to tell us specifically what you want.",
-            "label": "Can you provide more detail?",
+            "label": "Where else in the Ministry of Justice do you think this information is held?",
             "name": "auto_name__13"
           },
           "label": "Somewhere else in the Ministry of Justice",

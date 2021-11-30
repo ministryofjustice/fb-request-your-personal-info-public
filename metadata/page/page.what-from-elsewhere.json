@@ -1,0 +1,32 @@
+{
+  "_id": "page.what-from-elsewhere",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.what-from-elsewhere--textarea.auto_name__23",
+      "_type": "textarea",
+      "errors": {
+        "required": {
+          "any": "Tell us what information you want from somewhere else in the Ministry of Justice."
+        }
+      },
+      "label": "What information do you want from somewhere else in the Ministry of Justice?",
+      "name": "auto_name__23"
+    }
+  ],
+  "sectionHeading": "Somewhere else in the Ministry of Justice",
+  "show": {
+    "all": [
+      {
+        "0": {
+          "identifier": "auto_name__17",
+          "operator": "defined"
+        },
+        "identifier": "auto_name__17",
+        "operator": "defined"
+      }
+    ],
+    "conditionsType": "all"
+  },
+  "url": "what-from-elsewhere"
+}
