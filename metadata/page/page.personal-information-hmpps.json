@@ -5,6 +5,11 @@
     {
       "_id": "page.personal-information-hmpps--radios.auto_name__17",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose if you want information held by the Prison and Probations Service (HMPPS)"
+        }
+      },
       "items": [
         {
           "_id": "page.personal-information-hmpps--radios.auto_name__17--radio.auto_value__7",

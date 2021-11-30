@@ -5,6 +5,11 @@
     {
       "_id": "page.personal-dob--date.auto_name__79",
       "_type": "date",
+      "errors": {
+        "required": {
+          "any": "Enter your date of birth"
+        }
+      },
       "legend": "What is your date of birth?",
       "name": "auto_name__79"
     }

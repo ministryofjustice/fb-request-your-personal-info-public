@@ -5,6 +5,11 @@
     {
       "_id": "page.other-information--radios.auto_name__24",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose if you want information from another part of the Ministry of Justice"
+        }
+      },
       "items": [
         {
           "$component": true,

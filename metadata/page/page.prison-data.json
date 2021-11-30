@@ -25,6 +25,11 @@
           "conditionalComponent": {
             "_id": "page.prison-data--checkboxes--checkbox.auto_name__41--textarea.auto_name__53",
             "_type": "textarea",
+            "errors": {
+              "required": {
+                "any": "Tell us what other information you want from the Prison Service"
+              }
+            },
             "hint": "We can respond faster if you are able to tell us specifically what you want.",
             "label": "Can you provide more detail?",
             "name": "auto_name__53"
@@ -33,16 +38,13 @@
           "name": "auto_name__41"
         }
       ],
-      "legend": "What prison service information do you want?"
+      "legend": "What prison service information do you want?",
+      "show": true
     }
   ],
   "enableSteps": true,
   "sectionHeading": "HM Prison Service  ",
   "show": {
-    "0": {
-      "identifier": "auto_name__8",
-      "operator": "defined"
-    },
     "identifier": "auto_name__8",
     "operator": "defined"
   },

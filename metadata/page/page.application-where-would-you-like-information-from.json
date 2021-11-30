@@ -8,6 +8,11 @@
       "$definition": true,
       "_id": "page.application-where-would-you-like-information-from--checkboxes",
       "_type": "checkboxes",
+      "errors": {
+        "required": {
+          "any": "Choose where else in the Ministry of Justice you want information from"
+        }
+      },
       "hint": "For information from the Courts and Tribunals Service (HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
       "items": [
         {
@@ -45,6 +50,11 @@
             "$field": true,
             "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17--textarea.auto_name__13",
             "_type": "textarea",
+            "errors": {
+              "required": {
+                "any": "Tell us where else in the Ministry of Justice you want information from"
+              }
+            },
             "hint": "We can respond faster if you are able to tell us specifically what you want.",
             "label": "Can you provide more detail?",
             "name": "auto_name__13"

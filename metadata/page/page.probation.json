@@ -5,6 +5,11 @@
     {
       "_id": "page.probation--checkboxes",
       "_type": "checkboxes",
+      "errors": {
+        "required": {
+          "any": "Choose what information you want from the Probation Service"
+        }
+      },
       "hint": "Select all that apply:",
       "items": [
         {
@@ -30,6 +35,11 @@
             "$field": true,
             "_id": "page.probation--checkboxes--checkbox.auto_name__43--textarea.auto_name__44",
             "_type": "textarea",
+            "errors": {
+              "required": {
+                "any": "Tell us what other information you want from the Probation Service"
+              }
+            },
             "label": "Can you provide more detail? ",
             "name": "auto_name__44"
           },

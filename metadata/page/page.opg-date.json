@@ -8,7 +8,7 @@
       "_type": "date",
       "dateType": "month-year",
       "hint": "For example, 12 2011",
-      "legend": "From",
+      "legend": "Enter a date this information should start from (optional)",
       "name": "auto_name__66",
       "validation": {
         "required": false
@@ -19,7 +19,7 @@
       "_type": "date",
       "dateType": "month-year",
       "hint": "For example, 6 2014",
-      "legend": "To",
+      "legend": "Enter a date this information should go to (optional)",
       "name": "auto_name__68",
       "validation": {
         "required": false

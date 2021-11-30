@@ -9,6 +9,11 @@
       "$field": true,
       "_id": "page.opg--textarea.auto_name__67",
       "_type": "textarea",
+      "errors": {
+        "required": {
+          "any": "Tell us what information you want from the Office of the Public Guardian (OPG)"
+        }
+      },
       "label": "What information do you want from the Office of the Public Guardian?",
       "name": "auto_name__67"
     }

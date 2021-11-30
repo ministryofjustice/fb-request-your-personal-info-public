@@ -9,8 +9,13 @@
       "$field": true,
       "_id": "page.data-subject-name--text.auto_name__6",
       "_type": "text",
+      "errors": {
+        "required": {
+          "any": "Enter their full name"
+        }
+      },
       "label": "Full name",
-      "name": "subject_full_name"
+      "name": "auto_name__6"
     },
     {
       "$component": true,

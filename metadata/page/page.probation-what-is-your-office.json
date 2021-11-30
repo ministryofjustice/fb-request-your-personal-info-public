@@ -5,6 +5,11 @@
     {
       "_id": "page.probation-what-is-your-office--text.auto_name__45",
       "_type": "text",
+      "errors": {
+        "required": {
+          "any": "Tell us where your probation office is"
+        }
+      },
       "hint": "Enter the town, city or area. For example, Macclesfield.",
       "label": "Where is your probation office?",
       "name": "auto_name__45"

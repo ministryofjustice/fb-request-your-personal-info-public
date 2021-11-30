@@ -5,6 +5,11 @@
     {
       "_id": "page.contact-details-branston--radios.auto_name__54",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose what format you want to receive the information you're requesting"
+        }
+      },
       "items": [
         {
           "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3",

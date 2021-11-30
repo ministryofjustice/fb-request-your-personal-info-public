@@ -5,6 +5,11 @@
     {
       "_id": "page.subject-probation--text.auto_name__34",
       "_type": "text",
+      "errors": {
+        "required": {
+          "any": "Tell us where their probation office is"
+        }
+      },
       "label": "Where is their probation office?",
       "name": "auto_name__34"
     }
