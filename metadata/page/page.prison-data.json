@@ -39,7 +39,10 @@
         }
       ],
       "legend": "What prison service information do you want?",
-      "show": true
+      "show": true,
+      "validation": {
+        "required": true
+      }
     }
   ],
   "enableSteps": true,
