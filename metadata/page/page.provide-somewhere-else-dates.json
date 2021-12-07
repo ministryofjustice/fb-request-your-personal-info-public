@@ -1,6 +1,7 @@
 {
   "_id": "page.provide-somewhere-else-dates",
   "_type": "page.form",
+  "body": "Providing dates here will also make sure we do not send you more information than you need.",
   "components": [
     {
       "_id": "page.provide-somewhere-else-dates--date.auto_name__18",

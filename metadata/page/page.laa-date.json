@@ -1,6 +1,7 @@
 {
   "_id": "page.laa-date",
   "_type": "page.form",
+  "body": "Providing dates here will also make sure we do not send you more information than you need.",
   "components": [
     {
       "_id": "page.laa-date--date.auto_name__70",
