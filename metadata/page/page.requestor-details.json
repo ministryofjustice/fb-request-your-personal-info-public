@@ -9,6 +9,7 @@
       "$field": true,
       "_id": "page.requestor-details--text.auto_name__62",
       "_type": "text",
+      "autocomplete": "name",
       "errors": {
         "required": {
           "any": "Enter your full name"

@@ -24,6 +24,7 @@
       "$field": true,
       "_id": "page.solicitor-details--text.auto_name__58",
       "_type": "text",
+      "autocomplete": "name",
       "label": "Your full name (Optional)",
       "name": "auto_name__58",
       "validation": {
