@@ -11,7 +11,7 @@
         }
       },
       "hint": "Enter the town, city or area. For example, Macclesfield.",
-      "label": "Where is your probation office?",
+      "label": "Where is your probation office or approved premises?",
       "name": "auto_name__45"
     }
   ],
