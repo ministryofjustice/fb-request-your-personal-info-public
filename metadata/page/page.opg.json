@@ -23,24 +23,8 @@
   "show": {
     "any": [
       {
-        "all": [
-          {
-            "0": {
-              "any": [
-                {},
-                {}
-              ],
-              "conditionsType": "any"
-            },
-            "identifier": "output_email",
-            "operator": "is",
-            "value": "e[DISCLOSURE]"
-          },
-          {
-            "identifier": "auto_name__12",
-            "operator": "defined"
-          }
-        ]
+        "identifier": "auto_name__12",
+        "operator": "defined"
       },
       {
         "identifier": "auto_name__24",

@@ -19,17 +19,8 @@
   "show": {
     "any": [
       {
-        "all": [
-          {
-            "identifier": "output_email",
-            "operator": "is",
-            "value": "e[DISCLOSURE]"
-          },
-          {
-            "identifier": "auto_name__11",
-            "operator": "defined"
-          }
-        ]
+        "identifier": "auto_name__11",
+        "operator": "defined"
       },
       {
         "identifier": "auto_name__24",
