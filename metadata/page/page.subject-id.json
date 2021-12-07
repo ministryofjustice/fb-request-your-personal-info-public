@@ -42,12 +42,6 @@
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__19",
-        "negated": true,
-        "operator": "is",
-        "value": "yes"
-      },
-      {
         "identifier": "auto_name__2",
         "operator": "is",
         "value": "relative_friend_somethingelse"
