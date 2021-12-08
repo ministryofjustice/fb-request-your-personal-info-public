@@ -17,6 +17,7 @@
           "conditionalComponent": {
             "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__21",
             "_type": "email",
+            "autocomplete": "email",
             "label": "Your email address",
             "name": "email"
           },

@@ -16,6 +16,7 @@
       },
       "hint": "You will receive paper copies of this information. If your request reveals details about another person, that information will not be shared.",
       "label": "Your address",
+      "autocomplete": "address",
       "name": "auto_name__76"
     }
   ],
