@@ -10,12 +10,14 @@
         {
           "_id": "page.prison-data--checkboxes--checkbox.auto_name__21",
           "_type": "checkbox",
+          "hint": "Including case notes, incidents, visits, and visitors",
           "label": "NOMIS records",
           "name": "auto_name__21"
         },
         {
           "_id": "page.prison-data--checkboxes--checkbox.auto_name__26",
           "_type": "checkbox",
+          "hint": "A summary of key security-linked events",
           "label": "Security data",
           "name": "auto_name__26"
         },
