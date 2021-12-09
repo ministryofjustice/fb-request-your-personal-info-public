@@ -5,6 +5,11 @@
     {
       "_id": "page.mine-recent-prison--text.auto_name__33",
       "_type": "text",
+      "errors": {
+        "required": {
+          "any": "Tell us which prison you were most recently in"
+        }
+      },
       "label": "Which prison were you most recently in?",
       "name": "auto_name__33"
     }

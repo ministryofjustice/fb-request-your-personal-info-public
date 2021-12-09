@@ -5,32 +5,37 @@
     {
       "_id": "page.subject-probation--text.auto_name__34",
       "_type": "text",
-      "label": "Where is their probation office?",
+      "errors": {
+        "required": {
+          "any": "Tell us where their probation office is"
+        }
+      },
+      "label": "Where is their probation office or approved premises?",
       "name": "auto_name__34"
     }
   ],
   "enableSteps": false,
-  "sectionHeading": "Probation Service",
+  "sectionHeading": "HM Probation Service",
   "show": {
     "all": [
-      {
-        "identifier": "auto_name__9",
-        "operator": "defined"
-      },
       {
         "identifier": "auto_name__1",
         "operator": "is",
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__18",
+        "identifier": "output_email",
         "operator": "is",
-        "value": "yes"
+        "value": "e[BRANSTON]"
       },
       {
-        "identifier": "auto_name__8",
-        "negated": true,
+        "identifier": "auto_name__9",
         "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__19",
+        "operator": "is",
+        "value": "no"
       }
     ]
   },

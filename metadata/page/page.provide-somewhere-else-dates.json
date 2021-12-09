@@ -1,33 +1,37 @@
 {
-  "_id": "page.opg-date",
+  "_id": "page.provide-somewhere-else-dates",
   "_type": "page.form",
   "body": "Providing dates here will also make sure we do not send you more information than you need.",
   "components": [
     {
-      "_id": "page.opg-date--date.auto_name__66",
+      "_id": "page.provide-somewhere-else-dates--date.auto_name__18",
       "_type": "date",
       "dateType": "month-year",
-      "hint": "For example, 12 2011",
+      "hint": "For example, 11 2007",
       "legend": "Enter a date this information should start from (optional)",
-      "name": "auto_name__66",
+      "name": "auto_name__18",
       "validation": {
         "required": false
       }
     },
     {
-      "_id": "page.opg-date--date.auto_name__68",
+      "_id": "page.provide-somewhere-else-dates--date.auto_name__25",
       "_type": "date",
       "dateType": "month-year",
-      "hint": "For example, 6 2014",
+      "hint": "For example, 7 2010",
       "legend": "Enter a date this information should go to (optional)",
-      "name": "auto_name__68",
+      "name": "auto_name__25",
       "validation": {
         "required": false
       }
     }
   ],
-  "heading": "What dates do you want this information from? (Optional) ",
+  "heading": "What dates do you want this information from? (Optional)",
   "lede": "We may be able to respond faster if we know what time period you want this information to cover.",
-  "show": true,
-  "url": "opg-date"
+  "sectionHeading": "Somewhere else in the Ministry of Justice",
+  "show": {
+    "identifier": "auto_name__17",
+    "operator": "defined"
+  },
+  "url": "provide-somewhere-else-dates"
 }

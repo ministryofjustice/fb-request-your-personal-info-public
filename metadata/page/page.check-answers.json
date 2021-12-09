@@ -2,7 +2,7 @@
   "_id": "page.check-answers",
   "_type": "page.summary",
   "actionType": "custom-1",
-  "sendBody": "By submitting this request you confirm that, to the best of your knowledge, the details you are providing are correct.",
+  "sendBody": "By sending this request you confirm that, to the best of your knowledge, the details you are providing are correct.\r\n\r\nYou might want to save or print this page for your own records.",
   "sendHeading": "Now send your request",
   "url": "check-answers"
 }

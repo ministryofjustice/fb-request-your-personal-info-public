@@ -1,12 +1,14 @@
 {
   "_id": "page.prison-dates",
   "_type": "page.form",
-  "body": "Leave this page blank if you would like information since the start of the sentence, or can't remember",
+  "body": "Providing dates here will also make sure we do not send you more information than you need.\r\n\r\nLeave this page blank if you would like information since the start of the sentence, or can't remember.",
   "components": [
     {
       "_id": "page.prison-dates--date.auto_name__80",
       "_type": "date",
-      "legend": "From",
+      "dateType": "month-year",
+      "hint": "For example, 11 2010",
+      "legend": "Enter a date this information should start from (optional)",
       "name": "auto_name__80",
       "validation": {
         "required": false
@@ -15,7 +17,9 @@
     {
       "_id": "page.prison-dates--date.auto_name__84",
       "_type": "date",
-      "legend": "To",
+      "dateType": "month-year",
+      "hint": "For example, 5 2014",
+      "legend": "Enter a date this information should go to (optional)",
       "name": "auto_name__84",
       "validation": {
         "required": false
@@ -24,5 +28,6 @@
   ],
   "heading": "What dates do you want this information from? (Optional) ",
   "lede": "We may be able to respond faster if we know what time period you want this information to cover.",
+  "sectionHeading": "HM Prison Service",
   "url": "prison-dates"
 }

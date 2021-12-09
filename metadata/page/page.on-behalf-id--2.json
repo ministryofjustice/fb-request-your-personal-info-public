@@ -1,23 +1,33 @@
 {
   "_id": "page.on-behalf-id--2",
   "_type": "page.form",
+  "body": "These can be a photograph, scan or photocopy of the original document.",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.on-behalf-id--2--upload.auto_name__4",
       "_type": "upload",
-      "hint": "This can be a copy of your driving licence or passport. Maximum size: 7MB per file",
+      "hint": "For example, a copy of your driving licence or passport. Maximum size: 7MB per file",
       "label": "Photo ID",
       "name": "auto_name__4"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.on-behalf-id--2--upload.auto_name__22",
       "_type": "upload",
-      "hint": "This can be a copy of a bill in your name and must be dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
+      "hint": "For example an electricity or council tax bill in their name and it must be dated within the last 6 months. Maximum file size: 7MB",
       "label": "Proof of address",
       "name": "auto_name__22"
     }
   ],
-  "heading": "Upload your ID documents",
+  "heading": "Upload your ID ",
+  "lede": "You must upload both proof of your ID and address.",
   "show": {
     "identifier": "auto_name__2",
     "operator": "is",

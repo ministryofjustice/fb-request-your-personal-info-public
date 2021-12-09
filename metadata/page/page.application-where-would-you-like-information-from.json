@@ -3,25 +3,25 @@
   "_type": "page.singlequestion",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.application-where-would-you-like-information-from--checkboxes",
       "_type": "checkboxes",
-      "hint": "Select all that apply",
+      "errors": {
+        "required": {
+          "any": "Choose where else in the Ministry of Justice you want information from"
+        }
+      },
+      "hint": "For information from the Courts and Tribunals Service (HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
       "items": [
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__42",
-          "_type": "checkbox",
-          "label": "HM Courts and Tribunals Service (HMCTS)",
-          "name": "auto_name__42"
-        },
         {
           "$component": true,
           "$definition": true,
           "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
+          "hint": "Including information from legal aid applications.",
           "label": "Legal Aid Agency (LAA)",
           "name": "auto_name__11",
           "show": true
@@ -32,6 +32,7 @@
           "$option": true,
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
+          "hint": "Including information about lasting power of attorney.",
           "label": "Office of the Public Guardian (OPG)",
           "name": "auto_name__12",
           "show": true
@@ -43,26 +44,44 @@
           "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17",
           "_type": "checkbox",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.application-where-would-you-like-information-from--checkboxes--checkbox.auto_name__17--textarea.auto_name__13",
             "_type": "textarea",
-            "hint": "We can respond faster if you are able to tell us specifically what you want",
-            "label": "What information would you like from somewhere else in the Ministry of Justice?",
+            "errors": {
+              "required": {
+                "any": "Tell us where else in the Ministry of Justice you want information from"
+              }
+            },
+            "label": "Where in the Ministry of Justice do you think this information is held?",
             "name": "auto_name__13"
           },
           "label": "Somewhere else in the Ministry of Justice",
           "name": "auto_name__17"
         }
       ],
-      "legend": "Where would you like information from? ",
+      "legend": "Where else do you want information from? ",
       "validation": {
         "required": true
       }
     }
   ],
   "show": {
-    "identifier": "output_email",
-    "operator": "is",
-    "value": "e[DISCLOSURE]"
+    "any": [
+      {
+        "identifier": "output_email",
+        "operator": "is",
+        "value": "e[DISCLOSURE]"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "is",
+        "value": "auto_value__7"
+      }
+    ],
+    "conditionsType": "any"
   },
   "url": "application-where-would-you-like-information-from"
 }

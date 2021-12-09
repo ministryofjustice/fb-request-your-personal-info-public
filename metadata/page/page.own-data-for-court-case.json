@@ -5,6 +5,11 @@
     {
       "_id": "page.own-data-for-court-case--radios.auto_name__27",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose if you need this information for an upcoming court case or hearing"
+        }
+      },
       "items": [
         {
           "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1",
@@ -12,7 +17,8 @@
           "conditionalComponent": {
             "_id": "page.own-data-for-court-case--radios.auto_name__27--radio.auto_value__1--textarea.auto_name__56",
             "_type": "textarea",
-            "label": "Please give any details you can, for example if you know when the trial or hearing might take place?",
+            "hint": "For example, when the trial or hearing is happening.",
+            "label": "Can you provide more details?",
             "name": "auto_name__56"
           },
           "label": "Yes",

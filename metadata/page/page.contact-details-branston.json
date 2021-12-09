@@ -5,6 +5,11 @@
     {
       "_id": "page.contact-details-branston--radios.auto_name__54",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose what format you want to receive the information you're requesting"
+        }
+      },
       "items": [
         {
           "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3",
@@ -12,6 +17,7 @@
           "conditionalComponent": {
             "_id": "page.contact-details-branston--radios.auto_name__54--radio.auto_value__3--email.auto_name__21",
             "_type": "email",
+            "autocomplete": "email",
             "label": "Your email address",
             "name": "email"
           },
@@ -25,25 +31,34 @@
           "value": "auto_value__4"
         }
       ],
-      "legend": "How would you like to receive your personal information?",
+      "legend": "How do you want to receive the information?",
       "name": "auto_name__54"
     }
   ],
   "enableSteps": true,
   "show": {
-    "any": [
+    "all": [
       {
-        "identifier": "auto_name__18",
-        "operator": "is",
-        "value": "no"
+        "identifier": "auto_name__41",
+        "negated": true,
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__43",
+        "negated": true,
+        "operator": "defined"
       },
       {
         "identifier": "output_email",
         "operator": "is",
-        "value": "e[DISCLOSURE]"
+        "value": "e[BRANSTON]"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "is",
+        "value": "auto_value__1"
       }
-    ],
-    "conditionsType": "any"
+    ]
   },
   "steps": [],
   "url": "contact-preference"

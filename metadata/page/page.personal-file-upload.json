@@ -1,23 +1,39 @@
 {
   "_id": "page.personal-file-upload",
   "_type": "page.form",
+  "body": "These can be a photograph, scan or photocopy of the original document.",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.personal-file-upload--upload.auto_name__82",
       "_type": "upload",
-      "hint": "This can be a copy of your driving licence or passport. Maximum size: 7MB per file",
+      "hint": "For example, a copy of your driving licence or passport. Maximum size: 7MB per file",
       "label": "Photo ID ",
       "name": "auto_name__82"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.personal-file-upload--upload.auto_name__83",
       "_type": "upload",
-      "hint": "This can be a copy of a bill in your name and must be dated within the last 3 months (For example an electricity bill or council tax bill). Maximum file size: 7MB",
+      "hint": "For example an electricity or council tax bill in your name and it must be dated within the last 6 months. Maximum file size: 7MB",
       "label": "Proof of address",
       "name": "auto_name__83"
+    },
+    {
+      "_id": "page.personal-file-upload--details",
+      "_type": "details",
+      "html": "If you are on probation and don't have any ID, you can upload a scan or photograph of a signed letter from your probation officer on Probation Service headed paper.",
+      "summary": "If you don't have any ID"
     }
   ],
-  "heading": "Upload your ID documents ",
+  "heading": "Upload your ID ",
+  "lede": "You must upload both proof of ID and address.",
   "steps": [
     "page.request-personal-data_personal-file-upload-check"
   ],

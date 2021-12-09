@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this form to ask for your, or someone else’s, personal information held by: \r\n\r\n* HM Prison Service\r\n* Probation Service\r\n* HM Courts and Tribunals Service (HMCTS)\r\n* Legal Aid Agency  (LAA)\r\n* Office of the Public Guardian (OPG)\r\n* The Ministry of Justice (MoJ)\r\n\r\n## Before you start ##\r\n\r\nCompleting this online form should take around 5 minutes. The more specific you can be, the quicker it is to find your information.\r\n\r\nYou will need to provide the following:\r\n\r\n* personal details — name, date of birth\r\n* type of information you require\r\n* where information may have been collected, for example which court or prison you dealt with, and when\r\n\r\nWe cannot process your request without:\r\n\r\n* photo ID, such as a passport or driving licence\r\n* proof of address, such as a bank statement or utility bill from the last 3 months\r\n* a signed letter of consent dated from the last 6 months (if you are a legal representative asking for someone else)\r\n\r\nIf you are requesting information on behalf of someone but you are not a legal representative, you must provide photo ID and proof of address for that person plus a signed letter of consent dated from the last 6 months.\r\n\r\n## After making your request ##\r\n\r\nYou should receive a response within 30 days. We will contact you if we need more details to answer your request.",
+  "body": "Use this service to request personal information for yourself or someone else who has given you permission to act on their behalf.\r\n\r\nYou have the right to access your personal information, known as a subject access request (SAR), under the Data Protection Act 2018.\r\n\r\nThis form allows you request information held by parts of the Ministry of Justice, including the: \r\n\r\n* Prison Service - for security and NOMIS records about time spent in prison\r\n* Probation Service - for electronic case notes (nDelius ) about time on probation\r\n* Office of the Public Guardian (OPG) - for information including lasting power of attorney records \r\n* Legal Aid Agency  (LAA) - for information including legal aid application data",
   "components": [
     {
       "$component": true,
@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "Asking for an update during this time may mean it takes longer to get the information you want. "
+      "html": "## Do not use this form to request information from the Courts and Tribunals Service (HMCTS) ##\r\n\r\nFor information held by HMCTS, contact the court or tribunal you think holds the information.\r\n\r\nUse the [Find a court or tribunal service](https://www.gov.uk/find-court-tribunal) to find the contact details."
     },
     {
       "$component": true,
@@ -17,41 +17,50 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "## Answering your request ##\r\n\r\nIf we hold any information about you, you will receive:\r\n* a description of the information held\r\n* an explanation why it is held \r\n* details of who it could be given to\r\n* a copy of the information in a readable form\r\n\r\nIf your request reveals details about another person, that information will not be shared. \r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n"
+      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nOnce we have all the information we need to start processing your request, you should expect the results back within 30 days.\r\n\r\nYou will need to complete this form in one go. You cannot save and return."
     }
   ],
   "extraComponents": [
     {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content--3",
+      "_type": "content",
+      "html": "## Before you start ##\r\n\r\nYou will need to provide:\r\n\r\n* photo ID and proof of address, dated in the last 6 months, for you and anyone else you're requesting information for (legal representatives do not need to provide this)\r\n* a signed letter of consent, dated in the last 6 months, if you're requesting information on behalf of someone else\r\n\r\nIf you, or the person you're requesting information for, are on probation and do not have any of the ID listed, we can accept a photograph or scan of a letter signed by a probation officer on Probation Service headed paper."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
       "_id": "page.start--content",
       "_type": "content",
-      "html": "## Other ways to ask for personal information ##\r\n\r\nYou can also [send a request by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
+      "html": "### Other ways to ask for personal information from the Ministry of Justice ###\r\n\r\nUnder the Data Protection Act 2018, you can also [make a SAR by email or post](https://www.gov.uk/government/organisations/ministry-of-justice/about/personal-information-charter)."
     }
   ],
-  "heading": "Request personal information",
+  "heading": "Request personal information from the Ministry of Justice",
   "steps": [
     "page.requesting-own-data",
     "page.request-personal-data",
     "page.data-subject-name",
+    "page.subject-id",
     "page.personal-information-hmpps",
-    "page.information-relating-prison-probation",
     "page.other-information",
     "page.application-where-would-you-like-information-from",
     "page.currently-in-prison",
-    "page.subject-id",
     "page.subject-prison--2",
     "page.mine-prison-number",
-    "page.prison-non-offender",
     "page.prison-data",
     "page.probation-what-is-your-office",
     "page.subject-probation",
-    "page.probation-non-offender",
     "page.probation",
-    "page.courts-tribunal-information-request",
     "page.opg",
     "page.laa",
-    "page.somewhere_else",
+    "page.what-from-elsewhere",
+    "page.provide-somewhere-else-dates",
     "page.contact-details-branston",
     "page.contact-information",
+    "page.email-information",
     "page.own-data-for-court-case",
     "page.check-answers",
     "page.confirmation-page"

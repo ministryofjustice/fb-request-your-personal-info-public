@@ -1,0 +1,30 @@
+{
+  "_id": "page.email-information",
+  "_type": "page.form",
+  "body": "We will only use this email address to:\r\n* contact you if we need more information  \r\n* send you a copy of this completed form  for your records\r\n* give you instructions how to contact us after you've submitted your request",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.email-information--email.auto_name__17",
+      "_type": "email",
+      "hint": "",
+      "label": "Email address (optional)",
+      "name": "email",
+      "autocomplete": "email",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Your email ",
+  "show": {
+    "identifier": "auto_name__54",
+    "negated": true,
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "contact-information/email-information"
+}

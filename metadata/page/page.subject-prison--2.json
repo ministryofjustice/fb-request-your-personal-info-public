@@ -5,8 +5,13 @@
     {
       "_id": "page.subject-prison--2--text.auto_name__15",
       "_type": "text",
-      "hint": "Also sometimes called their NOMIS number. For example, A1234AA",
-      "label": "What is their prison number?",
+      "errors": {
+        "required": {
+          "any": "Enter their prison number"
+        }
+      },
+      "hint": "Also sometimes called their NOMIS number. For example, A1234AA.",
+      "label": "What is their prison number? ",
       "name": "auto_name__15"
     }
   ],
@@ -20,13 +25,13 @@
         "value": "someone-else"
       },
       {
-        "identifier": "auto_name__8",
-        "operator": "defined"
+        "identifier": "output_email",
+        "operator": "is",
+        "value": "e[BRANSTON]"
       },
       {
-        "identifier": "auto_name__18",
-        "operator": "is",
-        "value": "yes"
+        "identifier": "auto_name__8",
+        "operator": "defined"
       }
     ]
   },

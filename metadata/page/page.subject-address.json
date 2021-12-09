@@ -7,6 +7,7 @@
       "_type": "textarea",
       "label": "What was their address at the time of the hearing or trial? (Optional)",
       "name": "auto_name__52",
+      "autocomplete": "address",
       "validation": {
         "required": false
       }

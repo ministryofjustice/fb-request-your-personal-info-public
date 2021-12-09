@@ -1,11 +1,14 @@
 {
   "_id": "page.laa-date",
   "_type": "page.form",
+  "body": "Providing dates here will also make sure we do not send you more information than you need.",
   "components": [
     {
       "_id": "page.laa-date--date.auto_name__70",
       "_type": "date",
-      "legend": "From",
+      "dateType": "month-year",
+      "hint": "For example 11 2007",
+      "legend": "Enter a date this information should start from (optional)",
       "name": "auto_name__70",
       "validation": {
         "required": false
@@ -14,7 +17,9 @@
     {
       "_id": "page.laa-date--date.auto_name__71",
       "_type": "date",
-      "legend": "To",
+      "dateType": "month-year",
+      "hint": "For example, 7 2010",
+      "legend": "Enter a date this information should go to (optional)",
       "name": "auto_name__71",
       "validation": {
         "required": false

@@ -5,6 +5,11 @@
     {
       "_id": "page.requesting-own-data--radios.auto_name__1",
       "_type": "radios",
+      "errors": {
+        "required": {
+          "any": "Choose if you're requesting information for yourself or for someone else"
+        }
+      },
       "items": [
         {
           "_id": "page.requesting-own-data--radios.auto_name__1--radio.auto_value__1",

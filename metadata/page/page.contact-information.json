@@ -9,31 +9,36 @@
       "$field": true,
       "_id": "page.contact-information--textarea.auto_name__76",
       "_type": "textarea",
-      "hint": "This is where we'll send your information to",
+      "errors": {
+        "required": {
+          "any": "Enter an address where we will send the information"
+        }
+      },
+      "hint": "You will receive paper copies of this information. If your request reveals details about another person, that information will not be shared.",
       "label": "Your address",
+      "autocomplete": "address",
       "name": "auto_name__76"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.contact-information--email.auto_name__17",
-      "_type": "email",
-      "hint": "We will send a copy of your completed form",
-      "label": "Email address (Optional)",
-      "name": "email",
-      "validation": {
-        "required": false
-      }
     }
   ],
-  "heading": "Your contact details  ",
+  "heading": "Where we'll send the information",
   "show": {
-    "identifier": "auto_name__54",
-    "negated": true,
-    "operator": "is",
-    "value": "auto_value__3"
+    "any": [
+      {
+        "identifier": "auto_name__54",
+        "negated": true,
+        "operator": "is",
+        "value": "auto_value__3"
+      },
+      {
+        "identifier": "auto_name__41",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__43",
+        "operator": "defined"
+      }
+    ],
+    "conditionsType": "any"
   },
   "url": "contact-information"
 }

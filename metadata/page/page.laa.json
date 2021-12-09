@@ -5,6 +5,11 @@
     {
       "_id": "page.laa--textarea.auto_name__69",
       "_type": "textarea",
+      "errors": {
+        "required": {
+          "any": "Tell us what information you want from the Legal Aid Agency (LAA)"
+        }
+      },
       "label": "What information do you want from the Legal Aid Agency?",
       "name": "auto_name__69"
     }
@@ -12,8 +17,18 @@
   "enableSteps": true,
   "sectionHeading": "Legal Aid Agency",
   "show": {
-    "identifier": "auto_name__11",
-    "operator": "defined"
+    "any": [
+      {
+        "identifier": "auto_name__11",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "includes",
+        "value": "Legal Aid Agency, LAA"
+      }
+    ],
+    "conditionsType": "any"
   },
   "steps": [
     "page.laa-date"

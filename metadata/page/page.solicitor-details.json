@@ -9,6 +9,11 @@
       "$field": true,
       "_id": "page.solicitor-details--text.auto_name__57",
       "_type": "text",
+      "errors": {
+        "required": {
+          "any": "Enter the name of your organisation"
+        }
+      },
       "label": "Name of your organisation",
       "name": "auto_name__57"
     },
@@ -19,6 +24,7 @@
       "$field": true,
       "_id": "page.solicitor-details--text.auto_name__58",
       "_type": "text",
+      "autocomplete": "name",
       "label": "Your full name (Optional)",
       "name": "auto_name__58",
       "validation": {
