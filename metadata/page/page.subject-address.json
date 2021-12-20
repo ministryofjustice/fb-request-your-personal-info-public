@@ -5,7 +5,7 @@
     {
       "_id": "page.subject-address--textarea.auto_name__52",
       "_type": "textarea",
-      "label": "What was their address at the time of the hearing or trial? (Optional)",
+      "label": "What was their address at the time of the hearing or trial? (optional)",
       "name": "auto_name__52",
       "autocomplete": "address",
       "validation": {
