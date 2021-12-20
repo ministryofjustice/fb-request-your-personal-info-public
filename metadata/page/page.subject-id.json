@@ -28,7 +28,7 @@
     {
       "_id": "page.subject-id--details",
       "_type": "details",
-      "html": "If the person you're requesting information for is on probation and does not have any ID, we can accept a photograph or a scan of a letter signed by their probation officer on Probation Service headed paper.",
+      "html": "If the person you're requesting information for is on probation and does not have any ID, we can accept a photograph or a scan of a letter signed by their probation officer on Probation Service headed paper. This can be used for both Photo ID and Proof of address",
       "summary": "If they don't have any ID"
     }
   ],
