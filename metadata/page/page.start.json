@@ -17,18 +17,10 @@
       "$definition": true,
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nOnce we have all the information we need to start processing your request, you should expect the results back within 30 days.\r\n\r\nYou will need to complete this form in one go. You cannot save and return."
+      "html": "Completing this online form should take around 5 minutes. \r\n\r\nBe as specific as you can, it will help us find the information you want.\r\n\r\nOnce we have all the information we need to start processing your request, you should expect the results back within 30 days.\r\n\r\nYou will need to complete this form in one go. You cannot save and return.\r\n\r\nWe will only send information once, so please be careful about how you store anything you receive.\r\n\r\n## Before you start ##\r\n\r\nYou will need to provide:\r\n\r\n* photo ID and proof of address, dated in the last 6 months, for you and anyone else you're requesting information for (legal representatives do not need to provide this)\r\n* a signed letter of consent, dated in the last 6 months, if you're requesting information on behalf of someone else\r\n\r\nIf you, or the person you're requesting information for, are on probation and do not have any of the ID listed, we can accept a photograph or scan of a letter signed by a probation officer on Probation Service headed paper."
     }
   ],
   "extraComponents": [
-    {
-      "$component": true,
-      "$content": true,
-      "$definition": true,
-      "_id": "page.start--content--3",
-      "_type": "content",
-      "html": "## Before you start ##\r\n\r\nYou will need to provide:\r\n\r\n* photo ID and proof of address, dated in the last 6 months, for you and anyone else you're requesting information for (legal representatives do not need to provide this)\r\n* a signed letter of consent, dated in the last 6 months, if you're requesting information on behalf of someone else\r\n\r\nIf you, or the person you're requesting information for, are on probation and do not have any of the ID listed, we can accept a photograph or scan of a letter signed by a probation officer on Probation Service headed paper."
-    },
     {
       "$component": true,
       "$content": true,
