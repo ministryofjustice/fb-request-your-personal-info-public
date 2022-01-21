@@ -51,12 +51,12 @@
       {
         "identifier": "output_email",
         "operator": "is",
-        "value": "e[BRANSTON]"
+        "value": "e[DISCLOSURE]"
       },
       {
         "identifier": "auto_name__24",
         "operator": "is",
-        "value": "auto_value__1"
+        "value": "auto_value__7"
       }
     ]
   },
