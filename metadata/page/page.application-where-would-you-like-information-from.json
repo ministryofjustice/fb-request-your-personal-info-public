@@ -13,7 +13,7 @@
           "any": "Choose where else in the Ministry of Justice you want information from"
         }
       },
-      "hint": "For information from the Courts and Tribunals Service (HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
+      "hint": "For information or documents from the Courts (within HMCTS) contact the court or tribunal you dealt with directly.  \r\n\r\nSelect all that apply:",
       "items": [
         {
           "$component": true,
