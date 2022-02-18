@@ -9,7 +9,7 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "## Do not use this form to request information or documents from the Courts (within HMCTS) ##\r\n\r\nIf you require personal information held in a court or tribunal file, you can apply for this under the appropriate Procedural Rules directly to the court or tribunal.\r\n\r\nUse the [Find a court or tribunal service](https://www.gov.uk/find-court-tribunal) to find the contact details."
+      "html": "## Do not use this form to request information or documents from the Courts (within HMCTS) ##\r\n\r\nTo request personal information that might have been recorded during a court or tribunal case, you must contact the relevant court or tribunal directly.\r\n\r\nUse the [Find a court or tribunal service](https://www.gov.uk/find-court-tribunal) to find the contact details."
     },
     {
       "$component": true,
