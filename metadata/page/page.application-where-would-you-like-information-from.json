@@ -69,19 +69,9 @@
     }
   ],
   "show": {
-    "any": [
-      {
-        "identifier": "output_email",
-        "operator": "is",
-        "value": "e[DISCLOSURE]"
-      },
-      {
-        "identifier": "auto_name__24",
-        "operator": "is",
-        "value": "auto_value__7"
-      }
-    ],
-    "conditionsType": "any"
+    "identifier": "output_email",
+    "operator": "is",
+    "value": "e[DISCLOSURE]"
   },
   "url": "application-where-would-you-like-information-from"
 }

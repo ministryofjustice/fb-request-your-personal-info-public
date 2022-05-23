@@ -17,6 +17,12 @@
           "$option": true,
           "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.other-information--radios.auto_name__24--radio.auto_value__7--textarea.auto_name__7",
+            "_type": "textarea",
+            "label": "Where in the Ministry of Justice do you think this information is held?",
+            "name": "auto_name__7"
+          },
           "label": "Yes",
           "value": "auto_value__7"
         },
