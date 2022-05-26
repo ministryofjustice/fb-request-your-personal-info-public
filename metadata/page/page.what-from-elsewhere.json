@@ -16,7 +16,7 @@
   ],
   "sectionHeading": "Somewhere else in the Ministry of Justice",
   "show": {
-    "all": [
+    "any": [
       {
         "0": {
           "identifier": "auto_name__17",
@@ -24,9 +24,14 @@
         },
         "identifier": "auto_name__17",
         "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "is",
+        "value": "auto_value__7"
       }
     ],
-    "conditionsType": "all"
+    "conditionsType": "any"
   },
   "url": "what-from-elsewhere"
 }
